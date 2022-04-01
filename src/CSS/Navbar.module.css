@@ -1,0 +1,39 @@
+.container {
+    background-color: #e9cfbf;
+    height:100px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    font-family:'Paytone One', sans-serif;
+    padding-right:1rem;
+    padding-left:1rem;
+}
+.sztoriLogo {
+    width:99px;
+    height:99px;
+    opacity: 0.8;
+}
+.right {
+    display:flex;
+    width:50%;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height:100%;
+}
+.right a {
+    height:100%;
+    display:flex;
+    align-items: center;
+}
+.right a {
+    text-decoration: none;
+    color:#1D1C1A;
+  }
+ .right a:hover,.right a:focus {
+    color:#E04917;
+    background:white;
+  }
