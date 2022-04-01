@@ -7,13 +7,16 @@
     justify-content: space-between;
     box-sizing: border-box;
     font-family:'Paytone One', sans-serif;
-    padding-right:1rem;
-    padding-left:1rem;
+    padding-right:5rem;
+    padding-left:5rem;
+    opacity: 0.8;
+    position:absolute;
 }
+
 .sztoriLogo {
     width:99px;
     height:99px;
-    opacity: 0.8;
+    
 }
 .right {
     display:flex;

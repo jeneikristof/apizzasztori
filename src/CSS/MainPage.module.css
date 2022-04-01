@@ -1,0 +1,23 @@
+
+.carousel {
+    width:70%;
+    position: relative;
+    z-index:-1
+    
+}
+.carousel img {
+    width:100%;
+    height:900px;
+    
+}
+.luigiLogo {
+    
+    z-index:1;
+    position:absolute;
+    right:-100px;
+    top:0;
+}
+.luigiLogo img {
+    width:90%;
+    height:900px;
+}

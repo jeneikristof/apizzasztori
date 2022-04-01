@@ -6,7 +6,7 @@ import Food from "./Food.js"
 export default function Navbar(){
     return ( 
     <>
-        <BrowserRouter >
+        
         <div className={nav.container}>
             <div className={nav.left}>
             <NavLink to="/"><img className={nav.sztoriLogo} src={pizzasztori}></img></NavLink>
@@ -19,10 +19,8 @@ export default function Navbar(){
                 <NavLink to="cikkek"><div>Cikkek</div></NavLink>
             </div>
         </div>
-        <Routes>
-            <Route path="/etlap" element={<Food />}/>
-        </Routes>
-        </BrowserRouter>
+        
+      
         </>
     )
 }
