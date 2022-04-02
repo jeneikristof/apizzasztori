@@ -1,1 +1,4 @@
-
+body {
+    background-image: url(./images/pattern.jpg);
+    background-size: cover;
+}
