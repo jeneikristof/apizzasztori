@@ -15,8 +15,8 @@ export default function Navbar(){
                 <NavLink to="/etlap"><div>Étlap</div></NavLink>
                 <NavLink to="/itallap"><div>Itallap</div></NavLink>
                 <NavLink to="/galeria"><div>Galéria</div></NavLink>
-                <NavLink to="kapcsolat"><div>Kapcsolat</div></NavLink>
-                <NavLink to="cikkek"><div>Cikkek</div></NavLink>
+                <NavLink to="/kapcsolat"><div>Kapcsolat</div></NavLink>
+                <NavLink to="/cikkek"><div>Cikkek</div></NavLink>
             </div>
         </div>
         

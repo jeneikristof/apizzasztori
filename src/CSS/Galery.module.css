@@ -1,0 +1,31 @@
+.carousel {
+    position:relative;
+    top:120px;
+    margin-bottom:120px;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    box-shadow:0px 3px 12px black;
+}
+.allPics {
+    padding:3rem;
+    width:100%;
+    margin-top:5rem;
+    display:grid;
+    align-content: center;
+    justify-items: center;
+    gap:3rem;
+    grid-template-columns: 1fr 1fr 1fr ;
+    
+    
+}
+.allPics img {
+    width:80%;
+    transition: all .2s ease-in-out;
+    
+}
+.allPics img:hover {
+    
+    transform: scale(1.1);
+    box-shadow:0px 3px 12px black;
+}

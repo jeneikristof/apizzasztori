@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from './MainPage';
 import Food from './Food';
+import Galery from './Galery';
 
 function App() {
   return (
@@ -11,11 +12,12 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <Navbar />
-    </div>
     <Routes>
       <Route path="/" element={<MainPage />}></Route>
       <Route path="/etlap" element={<Food />}></Route>
+      <Route path="/galeria" element={<Galery />}></Route>
     </Routes>
+    </div>
     </BrowserRouter>
     </>
   );

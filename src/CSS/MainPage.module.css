@@ -16,8 +16,18 @@
     position:absolute;
     right:-100px;
     top:0;
+    pointer-events: none;
 }
 .luigiLogo img {
     width:90%;
     height:900px;
+}
+.carousel-control-prev {
+    display:none
+}
+.carousel-control-next {
+    display:none;
+}
+.carousel  a {
+    display:none;
 }
