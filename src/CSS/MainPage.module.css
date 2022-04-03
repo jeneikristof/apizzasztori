@@ -23,21 +23,21 @@
 }
 
 .icons {
+    width: 100%;
     display: flex;
-    z-index:1;
-    position:absolute;
-    right: 0;
-    top:750px;
+    z-index:2;
+    position:relative;
+    top:-150px;
     justify-content: flex-end;
-    margin-right: 5rem;
+    padding-right: 5rem;
 }
 
 .icons img {
     width: 100%
 }
 
-.icons a  {
-    width: 20%
+.icons a {
+    width: 175px;
 }
 
 .carousel-control-prev {
