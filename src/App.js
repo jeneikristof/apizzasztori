@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -9,7 +9,6 @@ import Galery from './Galery';
 
 function App() {
   return (
-    <>
     <BrowserRouter>
     <div className="App">
       <Navbar />
@@ -21,7 +20,6 @@ function App() {
     </Routes>
     </div>
     </BrowserRouter>
-    </>
   );
 }
 

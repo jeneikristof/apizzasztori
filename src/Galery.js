@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel'
-import React from 'react';
-import facebook from "./images/facebook.svg"
+import React from 'react'
 import pizza1 from "./images/pizza1.jpg"
 import pizza2 from "./images/pizza2.jpg"
 import pizza3 from "./images/pizza3.jpg"
@@ -13,7 +12,7 @@ export default function Galery(){
         <ControlledCarousel />
         </div>
         <div className={galery.allPics}>
-            {pictures.map(elem => <img src={elem}/>)}
+            {pictures.map((elem,i) => <img key={i} src={elem}/>)}
         </div>
         </>
     )
@@ -28,8 +27,8 @@ function ControlledCarousel() {
   
     return (
       <Carousel activeIndex={index} onSelect={handleSelect}>
-          {pictures.map(elem => <Carousel.Item>
-          <img
+          {pictures.map((elem,i) => <Carousel.Item key={i}>
+          <img key={i}
             className="d-block w-100"
             src={elem}
             alt="First slide"
