@@ -1,9 +1,13 @@
 .carousel {
     width:70%;
-    position: relative;
-    z-index:-1    
+    
+       
 }
-
+.container {
+    position:relative;
+    z-index:-1;
+    box-sizing: border-box;
+}
 .carousel img {
     width:100%;
     height:900px;    
@@ -19,7 +23,7 @@
 
 .luigiLogo img {
     width:85%;
-    height:900px;
+    height:800px;
 }
 
 .icons {
@@ -27,11 +31,13 @@
     display: flex;
     z-index:2;
     position:relative;
-    top:-150px;
+    top:-300px;
     justify-content: flex-end;
     padding-right: 5rem;
 }
-
+.carousel>div>div {
+   margin-bottom:100px;
+}
 .icons img {
     width: 100%
 }
@@ -50,4 +56,43 @@
 
 .carousel  a {
     display:none;
+}
+.textarea {
+    position:relative;
+    top:-300px;
+    z-index:1;
+    width:90%;
+    margin-left:auto;
+    margin-right:auto;
+    padding:1rem;
+    background-color: #E9CFBF;
+    border-radius:10px;
+}
+.textarea h1 {
+    font-family: 'Paytone One', sans-serif;
+    margin-bottom:1rem;
+}
+.textarea p {
+    font-family: 'Lora', serif;  
+}
+.pizzaOven {
+    position:relative;
+    top:-340px;
+    z-index:-1;
+
+}
+.pizzaOven img {
+    width:100%;
+}
+.bottomIcons {
+    display:flex;
+    justify-content: center;
+}
+.bottomIcons img {
+    width:100px;
+}
+.footer {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }

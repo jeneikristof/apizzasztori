@@ -1,4 +1,8 @@
 body {
     background-image: url(./images/pattern.jpg);
     background-size: cover;
+    
+}
+p {
+    font-family: 'Lora', serif;
 }
