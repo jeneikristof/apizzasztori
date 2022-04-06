@@ -10,7 +10,7 @@
     padding-right:5rem;
     padding-left:5rem;
     opacity: 0.8;
-    position:absolute;
+    position:relative;
   
 }
 .carousel-control-prev {
@@ -23,6 +23,7 @@
 .sztoriLogo {
     width:99px;
     height:99px;
+    
     
 }
 .right {

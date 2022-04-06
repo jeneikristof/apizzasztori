@@ -7,14 +7,14 @@ import galery from "./CSS/Galery.module.css"
 let pictures = [pizza1,pizza2,pizza3,pizza1,pizza1,pizza1,pizza1,pizza2]
 export default function Galery(){
     return (
-        <>
+        <div className={galery.container}>
         <div className={galery.carousel}>
         <ControlledCarousel />
         </div>
         <div className={galery.allPics}>
             {pictures.map((elem,i) => <img key={i} src={elem}/>)}
         </div>
-        </>
+        </div>
     )
 
 }

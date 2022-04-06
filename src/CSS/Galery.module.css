@@ -1,7 +1,10 @@
+.container {
+  
+    z-index:-1;
+}
 .carousel {
-    position:relative;
-    top:120px;
-    margin-bottom:120px;
+    
+    margin-top:3rem;
     margin-left:auto;
     margin-right:auto;
     width:40%;
@@ -10,7 +13,6 @@
 .allPics {
     padding:3rem;
     width:100%;
-    margin-top:5rem;
     display:grid;
     align-content: center;
     justify-items: center;

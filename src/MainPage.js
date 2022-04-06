@@ -26,6 +26,8 @@ export default function MainPage() {
           <a href="https://www.instagram.com/" target="_blank"><img src={instagram}></img></a>
           <a href="https://www.tripadvisor.com/" target="_blank"><img src={tripadvisor}></img></a>
         </div>
+        <div className={main.flex}>
+
         <div className={main.textarea}>
           <h1>Köszöntünk éttermünkben</h1>
           <p>
@@ -46,8 +48,14 @@ export default function MainPage() {
             lasagna buffalo sauce philly steak chicken wing.
           </p>
         </div>
+        </div>
         <div className={main.pizzaOven}>
           <img src={pizza4} />
+          <div className={main.bubbles}>
+            <div className={main.bubble}>Reserve a table<p>06308526455</p></div>
+            <div className={main.bubbleRight}><p>Taste our oven baked pizzas!</p></div>
+          </div>
+        
         <div className={main.bottomWrapper}>
 
         <div className={main.bottomIcons}>
