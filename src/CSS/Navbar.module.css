@@ -11,7 +11,6 @@
     padding-left:5rem;
     opacity: 0.8;
     position:relative;
-  
 }
 .carousel-control-prev {
     display:none
@@ -19,12 +18,9 @@
 .carousel-control-next {
     display:none;
 }
-
 .sztoriLogo {
     width:99px;
-    height:99px;
-    
-    
+    height:99px;   
 }
 .right {
     display:flex;

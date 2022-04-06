@@ -6,6 +6,7 @@ import MainPage from './MainPage';
 import Food from './Food';
 import Drinks from './Drinks'
 import Galery from './Galery';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Route path="/etlap" element={<Food />}></Route>
       <Route path="/itallap" element={<Drinks />}></Route>
       <Route path="/galeria" element={<Galery />}></Route>
+      <Route path="/kapcsolat" element={<Contact />}></Route>
     </Routes>
     </div>
     </BrowserRouter>
