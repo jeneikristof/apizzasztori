@@ -1,23 +1,31 @@
 import ContactStyle from "./CSS/Contact.module.css"
+import position from "./images/position.svg"
+import time from "./images/time.svg"
+import phone from "./images/phone.svg"
+import email from "./images/email.svg"
+import React from "react"
+
 
 export default function Contact(){
+    let [message, setMessage] = React.useState("")
+    let [emailState,setEmailState] = React.useState("")
+    let [name,setName] = React.useState("")
     return (
         <div className={ContactStyle.container}>
             <div className={ContactStyle.wrapper}>
                 <div className={ContactStyle.contact}>
                     <h3>Lépjen kapcsolatba velünk</h3>
-                    <p>Balatonmáriafürdő, Rákóczi Ferenc u. 35, 8647</p>
-                    <p>Péntek-Vasárnap 12:00 - 21:00</p>
-                    <p>+36 11 234 5678</p>
-                    <p>+36 20 442 3800</p>
-                    <p>info@apizzasztori.hu</p>
+                    <div className={ContactStyle.firstDiv}><img src={position}></img><p>Balatonmáriafürdő, Rákóczi Ferenc u. 35, 8647</p></div>
+                    <div><img src={time}></img><p>Péntek-Vasárnap 12:00 - 21:00</p></div>
+                    <div><img src={phone}></img><p>+36 20 442 3800</p></div>
+                    <div><img src={email}></img><p>info@apizzasztori.hu</p></div>
                 </div>
                 <div className={ContactStyle.formWrapper}>
                     <h3>Küldjön nekünk üzenetet</h3>
                     <form action="">
-                        <input type="text" placeholder="Név"  />
-                        <input type="email" placeholder="Email"  />
-                        <textarea name="comment" form="usrform">Írjon nekünk...</textarea>
+                        <input type="text" placeholder="Név" onChange={() => setName(name)}/>
+                        <input type="email" placeholder="Email" onChange={() => setEmailState(emailState)}/>
+                        <textarea name="comment" placeholder="Írjon nekünk..." form="usrform" onChange={() =>setName(name)}></textarea>
                         <input type="submit" value="Küldés"/>
 
                     </form>
