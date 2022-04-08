@@ -1,105 +1,94 @@
-import FoodStyle from "./CSS/Food.module.css"
-import Menu from "./images/etlap.jpg"
-
-export default function Food(){
-    let pizzas = [
-        {
-            name:"PORTAFOGLIO",
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         let pizzas = {
+        PORTAFOGLIO: {
             price:1790,
             description:"(Négybe hajtott sétálós pizza)",
             ingredients:"San Marzano Paradicsom, Mozzarella di Bufala, Parmezán, Bazsalikom, Extra szűz olívaolaj"
         },
-         {
-            name:"MARINARA",
+        MARINARA: {
             price:1790,
             description:"",
             ingredients:"San Marzano Paradicsom, Fokhagyma, Oregánó, Extra szűz olívaolaj"
         },
-        {
-            name:"MARGHERITA",
+        MARGHERITA: {
             price:1990,
             description:"",
             ingredients:"San Marzano Paradicsom, Mozzarella di Bufala, Parmezán, Bazsalikom, Extra szűz olívaolaj"
         },
-         {
-            name:"COTTO",
+        COTTO: {
             price:2390,
             description:"",
             ingredients:"San Marzano Paradicsom, Fior di Latte, Prosciutto Cotto, Parmezán"
         },
-        {
-            name:"NAPOLI",
+        NAPOLI: {
             price:2390,
             description:"",
             ingredients:"San Marzano Paradicsom, Fior di Latte, Napoli szalámi, Szárított Paradicsom"
         },
-         {
-            name:"CALZONE",
+        CALZONE: {
             price:2590,
             description:"",
             ingredients:"San Marzano Paradicsom, Fior di Latte, Salsiccia, Gorgonzola, Parmezán"
         },
-        {
-            name:"PARMA",
+        PARMA: {
             price:2590,
             description:"",
             ingredients:"San Marzano Paradicsom, Fior di Latte, Pesto Rosso, Pármai sonka, Fenyőmag, Borsóhajtás"
         },
-        {
-            name:"BIANCO",
+        BIANCO: {
             price:2650,
             description:"",
             ingredients:"Mozzarella di Bufala, Pancetta, Bébispenót, Ricotta, Pisztácia, Extra szűz olívaolaj"
         },
-        {
-            name:"BUFALA",
+        BUFALA: {
             price:2650,
             description:"",
             ingredients:"San Marzano Paradicsom, Mozzarella di Bufala, Rukkola, Pármai Sonka, Pesto Genovese, Parmezán"
         },
-        {
-            name:"MARE",
+        MARE: {
             price:2690,
             description:"",
             ingredients:"San Marzano Paradicsom, Fior di Latte, Szardella, Gyöngyhagyma, Kapros Mascarpone"
         },
-        {
-            name:"TRUFFLE",
+        TRUFLE: {
             price:2790,
             description:"",
             ingredients:"Mozzarella di Bufala, Pármai sonka, Fenyőmag, Szarvasgomba paté, Parmezán, Borsóhajtás"
         },
-        {
-            name:"CARPACCIO E INDIVIA",
+        "CARPACCIO E INDIVIA": {
             price:3290,
             description:"",
             ingredients:"San Marzano Paradicsom, Mozzarella di Bufala, Black Angus Carpaccio, Pirított Mogyoró, Fehér Szarvasgombaolaj, Endívia"
         }
 
-    ]
+    }
     
-//     <div>
+        
+            function asd() {
+                return 
+                Object.keys(pizzas).map(elem =>  <div>
                     
-//     <h3>{elem.price}</h3>
-//     <h3>{elem.price}</h3>
-
-// <p>{elem.description}</p>
-// <p>{elem.ingredients}</p>
-// </div>) 
-    return (
-        <>
-            <div className={FoodStyle.container}>
-                {pizzas.map(elem => <div>
-                    <div className={FoodStyle.nameAndPrice}>
-                        <h3>{elem.name}</h3>
-                        <p>{elem.price}</p>
-                    </div>
+                        <h3>{elem}</h3>
+                        <h3>{elem.price}</h3>
+                    
                     <p>{elem.description}</p>
                     <p>{elem.ingredients}</p>
-                </div>)}
+                </div>) 
+            }
 
             
-            </div>
-        </>
-    )
-}
+            
+        
+    
+    </script>
+</body>
+</html>

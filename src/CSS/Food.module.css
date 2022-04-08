@@ -1,8 +1,17 @@
 .container {
     width: auto;
-    position:absolute;
-    top:0;
-    z-index:-1;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1rem;
+}
+.container h3 {
+    color:#e04917;
+    font-family: 'Paytone One', sans-serif;
+}
+.nameAndPrice {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container img {
