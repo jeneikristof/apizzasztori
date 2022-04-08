@@ -24,31 +24,36 @@
 .formWrapper {
     width: 50%;
 }
-
 .formWrapper form {
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
 }
-
-.formWrapper input {
-    margin-bottom: 1rem;
+.formWrapper textarea {
+    min-height:100px;
 }
-
+.formWrapper input,.formWrapper textarea {
+    border:none;
+    margin-bottom: 1rem;
+    background-color: #FEF9E9;
+    border-radius: 0.4rem;
+}
+.formWrapper input[type=submit] {
+    background-color: #e04917;
+    color:white;
+    padding:1rem;
+    width:30%;
+    
+  }
 .map {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-::placeholder {
-    background-color: #FEF9E9;
-}
-
 .map iframe {
     width: 60%;
     height: 450px
 }
-
 .container h3 {
     font-family:'Paytone One', sans-serif;
 }
