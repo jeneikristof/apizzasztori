@@ -75,15 +75,15 @@ export default function Drinks(){
                         <div><p>Naileys Melange</p><span>1350 Ft</span></div>
                         <div><p>Ír Káve</p><span>1400 Ft</span></div>
                         <ul>
-                            <li><p>Kókusz vagy karamell szirup</p><span>150 Ft</span></li>
-                            <li><p>Növényi tej/dl</p><span>150 Ft</span></li>
-                            <li><p>Laktózmentes tej/dl</p><span>100 Ft</span></li>
-                            <li><p>Méz vagy tejszínhab</p><span>70 Ft</span></li>
+                            <li><p>- Kókusz vagy karamell szirup</p><span>150 Ft</span></li>
+                            <li><p>- Növényi tej/dl</p><span>150 Ft</span></li>
+                            <li><p>- Laktózmentes tej/dl</p><span>100 Ft</span></li>
+                            <li><p>- Méz vagy tejszínhab</p><span>70 Ft</span></li>
                         </ul>
                     </div>
                     <div>
                         <div><h3>TEÁK</h3><span>690 Ft</span></div>
-                        <p>Aktuális teakínálatunkról érdeklődjön felszolgálinknál!</p>
+                        <p>Aktuális teakínálatunkról érdeklődjön felszolgálóinknál!</p>
                     </div>
                     <div>
                         <h3>LIMONÁDÉK (0,4 L)</h3>

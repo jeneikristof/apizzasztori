@@ -19,3 +19,12 @@
     font-family:'Paytone One', sans-serif;
     color:#E04917;
 }
+
+.container p, .container span {
+    font-weight: bold;
+}
+
+.rightDiv li {
+    display:flex;
+    justify-content: space-between;
+}
