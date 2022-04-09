@@ -6,7 +6,19 @@
     background: #FEF9E9;
 }
 
-.leftDiv >div >div, .rightDiv >div >div {
+.leftDiv >div>div {
+    width: 60%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.rightDiv >div>div {
+    display:flex;
+    justify-content: space-between;
+}
+
+.leftDiv >div>div>div {
+    width: 30%;
     display:flex;
     justify-content: space-between;
 }

@@ -23,8 +23,8 @@ export default function Drinks(){
                         <div><p>Hungráia Extra Dry 0,75 l</p><span>3.900 Ft</span></div>
                     </div>
                     <div>
-                        <div><h3>CSAPOLT SÖRÖK</h3><span>0,3l</span><span>0,5 l</span></div>
-                        <div><p>Dreher</p><span>490 Ft</span><span>800 Ft</span></div>
+                        <div><h3>CSAPOLT SÖRÖK</h3><div><span>0,3l</span><span>0,5 l</span></div></div>
+                        <div><p>Dreher</p><div><span>490 Ft</span><span>800 Ft</span></div></div>
                     </div>
                     <div>
                         <h3>ÜVEGES SÖRÖK</h3>
@@ -34,7 +34,7 @@ export default function Drinks(){
                         <div><p>Dreher alkoholmentes(0,33 l)</p><span>550 Ft</span></div>
                     </div>
                     <div>
-                        <div><h3>RÖVID ITALOK</h3><span>2cl</span><span>4cl</span></div>
+                        <div><h3>RÖVID ITALOK</h3><div><span>2cl</span><span>4cl</span></div></div>
                         <div><p>Jagermeister</p><span>500 Ft</span><span>900 Ft</span></div>
                         <div><p>Uncium</p><span>500 Ft</span><span>900 Ft</span></div>
                         <div><p>Baileys</p><span>500 Ft</span><span>900 Ft</span></div>
