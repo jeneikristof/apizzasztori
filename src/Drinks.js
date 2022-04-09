@@ -5,7 +5,10 @@ export default function Drinks(){
     return (
         <>
             <div className={DrinksStyle.container}>
-                <img src={drinks}></img>
+                <div className={DrinksStyle.leftDiv}>
+                    <h2>BOROK</h2>
+                </div>
+                <div className={DrinksStyle.rightDiv}></div>
             </div>
         </>
     )
