@@ -52,7 +52,7 @@ export default function MainPage() {
         <div className={main.pizzaOven}>
           <img src={pizza4} />
           <div className={main.bubbles}>
-            <div className={main.bubble}>Reserve a table<p>06308526455</p></div>
+            <div className={main.bubble}><p>Reserve a table 06308526455</p></div>
             <div className={main.bubbleRight}><p>Taste our oven baked pizzas!</p></div>
           </div>
         
@@ -80,6 +80,7 @@ function ControlledCarousel() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
+  console.log(index)
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
