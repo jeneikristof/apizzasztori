@@ -1,6 +1,6 @@
 import FoodStyle from "./CSS/Food.module.css"
 import footer from "./images/menufooter.svg"
-import header from "./images/menuheader.svg"
+import header from "./images/menuheader2.svg"
 
 export default function Food(){
     let pizzas = [
