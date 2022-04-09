@@ -1,11 +1,21 @@
 .container {
-    position:absolute;
-    top:0;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
     width: auto;
-    z-index:-1
+    background: #FEF9E9;
 }
 
-.container img {
-    margin-top: 100px;
-    width: 100%;
+.leftDiv >div >div, .rightDiv >div >div {
+    display:flex;
+    justify-content: space-between;
+}
+
+.leftDiv, .rightDiv {
+    width: 40%
+}
+
+.container h3 {
+    font-family:'Paytone One', sans-serif;
+    color:#E04917;
 }
