@@ -107,7 +107,7 @@ export default function Food(){
                     <div className={FoodStyle.nameAndPrice}>
                         <h3>{elem.name}</h3>
                         <div className={FoodStyle.flex}>
-                        {elem.allergens.map(x => <div className={FoodStyle.blackDivs}>{x}.</div>)}
+                        {elem.allergens.map(x => <div className={FoodStyle.blackDivs}><p>{x}.</p></div>)}
                         </div>
                         <p>{elem.price} Ft</p>
                     </div>

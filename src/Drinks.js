@@ -23,8 +23,8 @@ export default function Drinks(){
                         <div><p>Hungráia Extra Dry 0,75 l</p><span>3.900 Ft</span></div>
                     </div>
                     <div>
-                        <div><h3>CSAPOLT SÖRÖK</h3><div><span>0,3l</span><span>0,5 l</span></div></div>
-                        <div><p>Dreher</p><div><span>490 Ft</span><span>800 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><h3>CSAPOLT SÖRÖK</h3></div><div className={DrinksStyle.prices}><span>0,3l</span><span>0,5 l</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Dreher</p></div><div className={DrinksStyle.prices}><span>490 Ft</span><span>800 Ft</span></div></div>
                     </div>
                     <div>
                         <h3>ÜVEGES SÖRÖK</h3>
@@ -34,20 +34,20 @@ export default function Drinks(){
                         <div><p>Dreher alkoholmentes(0,33 l)</p><span>550 Ft</span></div>
                     </div>
                     <div>
-                        <div><h3>RÖVID ITALOK</h3><div><span>2cl</span><span>4cl</span></div></div>
-                        <div><p>Jagermeister</p><span>500 Ft</span><span>900 Ft</span></div>
-                        <div><p>Uncium</p><span>500 Ft</span><span>900 Ft</span></div>
-                        <div><p>Baileys</p><span>500 Ft</span><span>900 Ft</span></div>
-                        <div><p>Finlandia Vodka</p><span>500 Ft</span><span>900 Ft</span></div>
-                        <div><p>Bacardi Carta Blanca</p><span>500 Ft</span><span>900 Ft</span></div>
-                        <div><p>Jameson</p><span>550 ft</span><span>950 Ft</span></div>
-                        <div><p>Jack Daniel's</p><span>550 ft</span><span>950 Ft</span></div>
-                        <div><p>Bombay gin</p><span>550 Ft</span><span>950 Ft</span></div>
-                        <div><p>Mlinari Limoncello</p><span>550 Ft</span><span>950 Ft</span></div>
-                        <div><p>Tátratea 62% erdeigyümölcs</p><span>700 ft</span><span>1300 Ft</span></div>
-                        <div><p>Medicina pálinkák</p><span>750 Ft</span><span>1450 Ft</span></div>
+                        <div><div className={DrinksStyle.shot}><h3>RÖVID ITALOK</h3></div><div className={DrinksStyle.prices}><span>2cl</span><span>4cl</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Jagermeister</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Uncium</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Baileys</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Finlandia Vodka</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Bacardi Carta Blanca</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Jameson</p></div><div className={DrinksStyle.prices}><span>550 ft</span><span>950 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Jack Daniel's</p></div><div className={DrinksStyle.prices}><span>550 ft</span><span>950 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Bombay gin</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Mlinari Limoncello</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Tátratea 62% erdeigyümölcs</p></div><div className={DrinksStyle.prices}><span>700 ft</span><span>1300 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Medicina pálinkák</p></div><div className={DrinksStyle.prices}><span>750 Ft</span><span>1450 Ft</span></div></div>
                         <p>(Fürtös, Meggy, Szilva, Irsai Szőlő, Nektár Szőlő</p>
-                        <div><p>Bestillo Gönci Barackpálinka</p><span>750 Ft</span><span>1450 Ft</span></div>
+                        <div><div><p>Bestillo Gönci Barackpálinka</p></div><div className={DrinksStyle.prices}><span>750 Ft</span><span>1450 Ft</span></div></div>
                     </div>
                 </div>
                 <div className={DrinksStyle.rightDiv}>

@@ -1,3 +1,6 @@
+.container *{
+    font-size: 3vw;
+}
 .container {
     display: flex;
     justify-content: space-between;
@@ -5,9 +8,8 @@
     width: auto;
     background: #FEF9E9;
 }
-
 .leftDiv >div>div {
-    width: 60%;
+    
     display:flex;
     justify-content: space-between;
 }
@@ -17,22 +19,26 @@
     justify-content: space-between;
 }
 
-.leftDiv >div>div>div {
-    width: 30%;
+.shot {
+    width:60%;
+}
+.prices {
+    width:30%;
     display:flex;
     justify-content: space-between;
 }
-
 .leftDiv, .rightDiv {
-    width: 40%
+    width: 45%
 }
 
 .container h3 {
+    font-size:2rem;
     font-family:'Paytone One', sans-serif;
     color:#E04917;
 }
 
 .container p, .container span {
+    font-size:1rem;
     font-weight: bold;
 }
 
