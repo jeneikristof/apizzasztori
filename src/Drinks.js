@@ -1,4 +1,5 @@
 import DrinksStyle from "./CSS/Drinks.module.css"
+import Footer from "./Footer"
 import drinks from "./images/itallap.jpg"
 
 export default function Drinks(){
@@ -96,6 +97,7 @@ export default function Drinks(){
                     </div>
                 </div>
             </div>
+            <Footer />
         </>
     )
 }

@@ -7,6 +7,7 @@ import Food from './Food';
 import Drinks from './Drinks'
 import Galery from './Galery';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path="/kapcsolat" element={<Contact />}></Route>
     </Routes>
     </div>
+      
     </BrowserRouter>
   );
 }

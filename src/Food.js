@@ -1,4 +1,5 @@
 import FoodStyle from "./CSS/Food.module.css"
+import Footer from "./Footer"
 import footer from "./images/menufooter.svg"
 import header from "./images/menuheader2.png"
 
@@ -91,15 +92,9 @@ export default function Food(){
 
     ]
     
-//     <div>
-                    
-//     <h3>{elem.price}</h3>
-//     <h3>{elem.price}</h3>
 
-// <p>{elem.description}</p>
-// <p>{elem.ingredients}</p>
-// </div>) 
     return (
+        <>
         <div className={FoodStyle.container}>
                 <img src={header}></img>
             <div className={FoodStyle.grid}>
@@ -113,7 +108,7 @@ export default function Food(){
                     </div>
                     {elem.description != "" ? <p>{elem.description}</p>: null }
                     <p>{elem.ingredients}</p>
-                    {/* {idx >= 9 ? null : <hr></hr>} */}
+                    
                 </div>
                 </>
                 )}
@@ -122,5 +117,7 @@ export default function Food(){
             </div>
                 <img src={footer}></img>
         </div>
+            <Footer />
+        </>
     )
 }
