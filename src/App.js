@@ -8,6 +8,7 @@ import Drinks from './Drinks'
 import Galery from './Galery';
 import Contact from './Contact';
 import Footer from './Footer';
+import News from './News';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path="/itallap" element={<Drinks />}></Route>
       <Route path="/galeria" element={<Galery />}></Route>
       <Route path="/kapcsolat" element={<Contact />}></Route>
+      <Route path="/cikkek" element={<News />}></Route>
     </Routes>
     </div>
       
