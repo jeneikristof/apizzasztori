@@ -12,11 +12,11 @@ export default function Navbar(){
             <NavLink to="/"><img className={nav.sztoriLogo} src={pizzasztori}></img></NavLink>
             </div>
             <div className={nav.right} >
-                <NavLink to="/etlap"><div>Étlap</div></NavLink>
-                <NavLink to="/itallap"><div>Itallap</div></NavLink>
-                <NavLink to="/galeria"><div>Galéria</div></NavLink>
-                <NavLink to="/kapcsolat"><div>Kapcsolat</div></NavLink>
-                <NavLink to="/cikkek"><div>Cikkek</div></NavLink>
+                <NavLink to="/etlap"><p>Étlap</p></NavLink>
+                <NavLink to="/itallap"><p>Itallap</p></NavLink>
+                <NavLink to="/galeria"><p>Galéria</p></NavLink>
+                <NavLink to="/kapcsolat"><p>Kapcsolat</p></NavLink>
+                <NavLink to="/cikkek"><p>Cikkek</p></NavLink>
             </div>
         </div>
         

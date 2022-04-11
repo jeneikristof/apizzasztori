@@ -34,7 +34,9 @@
   margin:0;
 }
 .blackDivs {
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     height:30px;
     width:30px;
     color:white;

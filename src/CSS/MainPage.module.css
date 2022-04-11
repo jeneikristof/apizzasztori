@@ -87,8 +87,9 @@ body {
     margin-bottom:1rem;
 }
 .textarea p {
-    font-size:1rem;
+    font-size:0.35em;
     font-family: 'Lora', serif;  
+    font-weight:bolder;
 }
 .pizzaOven {
     position:absolute;

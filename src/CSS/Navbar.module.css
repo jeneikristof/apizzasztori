@@ -6,11 +6,18 @@
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    font-family:'Paytone One', sans-serif;
     padding-right:5rem;
     padding-left:5rem;
     opacity: 0.8;
     position:relative;
+}
+.container * {
+    font-size:3vw;
+    margin:0;
+}
+.container p {
+    font-family:'Paytone One', sans-serif;
+    font-size:0.5em;
 }
 .carousel-control-prev {
     display:none
