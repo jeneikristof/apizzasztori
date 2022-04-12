@@ -1,10 +1,14 @@
 import DrinksStyle from "./CSS/Drinks.module.css"
 import Footer from "./Footer"
-import drinks from "./images/itallap.jpg"
+import DrinksHeader from "./images/drinkheader.png"
+import DrinksFooter from "./images/menufooter.svg"
 
 export default function Drinks(){
     return (
-        <>
+        <>  
+            <div className={DrinksStyle.headerImg}>
+                <img src={DrinksHeader}/>
+            </div>
             <div className={DrinksStyle.container}>
                 <div className={DrinksStyle.leftDiv}>
                     <div>
@@ -97,6 +101,9 @@ export default function Drinks(){
                     </div>
                 </div>
             </div>
+                <div className={DrinksStyle.headerImg}>
+                    <img src={DrinksFooter}/>
+                </div>
             <Footer />
         </>
     )

@@ -1,6 +1,12 @@
 .container *{
     font-size: 3vw;
 }
+
+.headerImg img {
+    width: 100%;
+    background: #FEF9E9;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
