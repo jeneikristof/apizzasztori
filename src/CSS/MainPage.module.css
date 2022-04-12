@@ -1,3 +1,4 @@
+@media (min-width:1300px){
 .carousel {
     width:70%;
     position: absolute;
@@ -203,5 +204,77 @@ body {
     justify-content: space-between;
     box-sizing: border-box;
 
+}
+}
+@media (max-width:1300px){
+    .container * {
+        font-size: 3vw;
+    }
+    .container {
+        padding:1rem;
+        box-sizing: border-box;
+    }
+    .carousel {
+        width:70%;
+        margin-bottom:1rem;
+    }
+    .luigiLogo {
+        width:30%;
+    }
+    .icons a {
+        display:none;
+    }
+    .bottomWrapper {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottomIcons {
+       text-align: center;
+    }
+    .bottomIcons img {
+        width:10%;
+    }
+    .bottomIcons a {
+        width:100%;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer p {
+        font-size:0.6em;
+        font-weight: bold;
+        
+    }
+    .textarea h1 {
+        font-family: 'Paytone One', sans-serif;
+        margin-bottom:1rem;
+    }
+    .textarea {
+        margin-bottom:1rem;
+        border-radius: 10px;
+        padding:1rem;
+        background:#E9CFBF;
+    }
+    .textarea p {
+        font-weight: bold;
+        font-size: 0.5em;
+    }
+    .carousel img {
+        max-height: 800px;
+    }
+    .pizzaOven>img {
+        width:100%;
+    }
+ 
+    .bubbles {
+        display:none;
+    }
+    .carouselAndLuigi {
+        display:flex;
+        align-items: flex-end;
+       
+    }
+    
 }
 
