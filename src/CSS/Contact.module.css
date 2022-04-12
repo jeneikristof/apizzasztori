@@ -79,3 +79,27 @@
     margin-bottom:1rem;
     font-family:'Paytone One', sans-serif;
 }
+
+@media (max-width:1360px){
+
+    .wrapper {
+        gap: 1rem;
+    }
+
+    .contact h3 {
+        font-size: 2vw;
+    }
+
+    .contact p {
+        font-size: 1.75vw;
+    }
+
+    .formWrapper h3 {
+        font-size: 2vw;
+    }
+
+    .formWrapper p {
+        font-size: 1.75vw;
+    }
+
+}
