@@ -14,12 +14,15 @@ export default function MainPage() {
   return (
     <>
       <div className={main.container}>
+        <div className={main.carouselAndLuigi}>
+
         <div className={main.carousel}>
           <ControlledCarousel />
 
         </div>
         <div className={main.luigiLogo}>
           <img src={luigi}></img>
+        </div>
         </div>
         <div className={main.icons}>
           <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
