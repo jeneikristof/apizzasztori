@@ -61,4 +61,8 @@
     .container p, .container span {
         font-size: 1.5vw;
     }
+
+    .container{
+        padding: 2.5rem;
+    }
 }

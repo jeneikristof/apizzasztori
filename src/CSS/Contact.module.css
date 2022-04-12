@@ -82,7 +82,12 @@
 
 @media (max-width:1360px){
 
+    .container {
+        padding: 2rem;
+    }
+    
     .wrapper {
+        width: 100%;
         gap: 1rem;
     }
 
@@ -102,4 +107,13 @@
         font-size: 1.75vw;
     }
 
+    .formWrapper input[type=submit] {
+        width: 40%;
+        padding:0.5rem;
+    }
+
+    .map iframe {
+        width: 100%;
+       
+    }
 }
