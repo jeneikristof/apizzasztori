@@ -95,7 +95,7 @@ body {
 .pizzaOven {
     position:absolute;
     width:100%;
-    top:1070px;
+    top:1150px;
     z-index:-1;
     margin-bottom:200px;
     
@@ -217,6 +217,10 @@ body {
     .carousel {
         width:70%;
         margin-bottom:1rem;
+        
+    }
+    .carousel img {
+        height:600px;
     }
     .luigiLogo {
         width:30%;
