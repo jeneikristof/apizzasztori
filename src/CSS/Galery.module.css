@@ -1,3 +1,4 @@
+
 .container {
   
     z-index:-1;
@@ -18,7 +19,7 @@
     padding:3rem;
     width:100%;
     display:grid;
-    align-content: center;
+    align-items: center;
     justify-items: center;
     gap:3rem;
     grid-template-columns: 1fr 1fr 1fr ;
@@ -27,7 +28,8 @@
 }
 .allPics img {
     width:90%;
-    height:400px;
+    min-height:300px;
+    max-height:450px;
     transition: all .2s ease-in-out;
     
 }
@@ -39,4 +41,22 @@
 .carousel a span {
     width:6rem;
     height:6rem;
+}
+@media (max-width:1300px){
+  .container {
+      
+  }
+  .carousel {
+      margin-top:2rem;
+  }
+  .allPics {
+      padding:2rem;
+  }
+  .carousel img {
+    height:400px;
+  }
+  .allPics img {
+    min-height:200px;
+    max-height:350px;
+  }
 }

@@ -18,13 +18,16 @@ import pizza15 from "./images/pizza15.jpg"
 import pizza16 from "./images/pizza16.jpg"
 import galery from "./CSS/Galery.module.css"
 import Footer from './Footer'
+import luigi from "./images/luigilogo2.svg"
 let pictures = [pizza2,pizza3,pizza4,pizza5,pizza6,pizza7,pizza8,pizza9,pizza10,pizza11,pizza12,pizza13,pizza14,pizza15,pizza16]
 export default function Galery(){
     return (
       <>
         <div className={galery.container}>
         <div className={galery.carousel}>
+          
         <ControlledCarousel />
+          
         </div>
         <div className={galery.allPics}>
             {pictures.map((elem,i) => <img key={i} src={elem}/>)}
