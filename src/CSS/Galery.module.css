@@ -43,9 +43,7 @@
     height:6rem;
 }
 @media (max-width:1300px){
-  .container {
-      
-  }
+
   .carousel {
       margin-top:2rem;
   }

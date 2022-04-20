@@ -4,7 +4,7 @@ import tripadvisor from "./images/tripadvisor.svg"
 import main from "./CSS/MainPage.module.css"
 export default function Footer(){
     return (
-<div className={main.bottomWrapper}>
+<footer className={main.bottomWrapper}>
 
 <div className={main.bottomIcons}>
   <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
@@ -16,6 +16,6 @@ export default function Footer(){
     <p>+36 20 442 3800</p>
     <p>2022 ©</p>
 </div>
-</div>
+</footer>
     )
 }

@@ -10,3 +10,9 @@ body {
 p {
     font-family: 'Lora', serif;
 }
+.App footer p {
+ font-size:1.7vw;
+}
+@media (max-width:1300px){
+
+}
