@@ -49,12 +49,43 @@
   }
   .allPics {
       padding:2rem;
-  }
-  .carousel img {
-    height:400px;
-  }
-  .allPics img {
-    min-height:200px;
-    max-height:350px;
-  }
+    }
+    .carousel img {
+        height:400px;
+    }
+    .allPics img {
+        min-height:200px;
+        max-height:350px;
+    }
+}
+@media (max-width:800px){
+    .carousel {
+        margin-top:0;
+        width:100%;
+    }
+    .carousel img {
+        width:100%;
+        height:500px;
+    }
+    .allPics {
+        padding:1.2rem;
+        width:100%;
+        display:grid;
+        align-items: center;
+        justify-items: center;
+        gap:1rem;
+        grid-template-columns: 1fr  ; 
+    }
+    .allPics img {
+        width:80%;
+        min-height: none;
+        max-height: none;
+        
+        
+    }
+    .allPics img:hover {
+       transform:none;
+        
+    }
+
 }
