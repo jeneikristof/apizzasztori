@@ -17,7 +17,7 @@
 }
 .container p {
     font-family:'Paytone One', sans-serif;
-    font-size:0.5em;
+    font-size:1.7vw;
 }
 .carousel-control-prev {
     display:none
@@ -31,7 +31,7 @@
 }
 .right {
     display:flex;
-    width:50%;
+    width:60%;
     justify-content:space-between;
     align-items: center;
     font-size: 1.5rem;
@@ -50,4 +50,18 @@
  .right a:hover,.right a:focus {
     color:#E04917;
     background:white;
+  }
+  @media (max-width:1300px){
+      .container {
+          
+        padding-right:2rem;
+        padding-left:2rem;
+      }
+    .container p {
+        font-size:2vw;
+    }
+  
+    .right {
+        width:70%;
+    }
   }

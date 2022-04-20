@@ -26,7 +26,7 @@ export default function MainPage() {
         </div>
         <div className={main.icons}>
           <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src={instagram}></img></a>
+          <a href="https://www.instagram.com/apizzasztori/" target="_blank"><img src={instagram}></img></a>
           <a href="https://www.tripadvisor.com/" target="_blank"><img src={tripadvisor}></img></a>
         </div>
         <div className={main.flex}>
@@ -63,7 +63,7 @@ export default function MainPage() {
 
         <div className={main.bottomIcons}>
           <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
-          <a href="https://www.instagram.com/" target="_blank"><img src={instagram}></img></a>
+          <a href="https://www.instagram.com/apizzasztori/" target="_blank"><img src={instagram}></img></a>
           <a href="https://www.tripadvisor.com/" target="_blank"><img src={tripadvisor}></img></a>
         </div>
         <div className={main.footer}>
