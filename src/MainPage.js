@@ -83,7 +83,7 @@ function ControlledCarousel() {
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
   };
-  console.log(index)
+  
 
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>

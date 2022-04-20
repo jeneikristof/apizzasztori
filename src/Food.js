@@ -98,11 +98,11 @@ export default function Food(){
         <div className={FoodStyle.container}>
                 <img src={header}></img>
             <div className={FoodStyle.grid}>
-                {pizzas.map((elem,idx) => <><div className={idx >= 9 ? null :FoodStyle.border}>
+                {pizzas.map((elem,idx) => <><div key={idx} className={idx >= 9 ? null :FoodStyle.border}>
                     <div className={FoodStyle.nameAndPrice}>
                         <h3>{elem.name}</h3>
                         <div className={FoodStyle.flex}>
-                        {elem.allergens.map(x => <div className={FoodStyle.blackDivs}><p>{x}.</p></div>)}
+                        {elem.allergens.map((x,idx) => <div key={idx} className={FoodStyle.blackDivs}><p>{x}.</p></div>)}
                         </div>
                         <p>{elem.price} Ft</p>
                     </div>
