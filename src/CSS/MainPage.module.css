@@ -281,4 +281,26 @@ body {
     }
     
 }
+@media (max-width:800px){
+    .luigiLogo {
+        display:none;
+    }
+    .carousel {
+        width:100%;
+        
+    }
+    .carousel img {
+        
+        height:430px;
+    }
+    .textarea h1 {
+        font-size: 4.5vw;
+    }
+    .textarea p {
+        font-size: 2.2vw;
+    }
+    .container {
+        padding:0;
+    }
+}
 
