@@ -19,7 +19,8 @@
 }
 .allPics {
     display: flex;
-    flex-wrap: wrap;
+    /* background-color: #1D1C1A; */
+    /* flex-wrap: wrap; */
     padding: 0;  
     
 }
