@@ -1,39 +1,30 @@
 
 .container {
-  
     z-index:-1;
 }
 .carousel {
     background-color: black;
-    
     margin-left:auto;
     margin-right:auto;
     width:100%;
     box-shadow:0px 3px 12px black;
 }
 .carousel img {
-    
     width:40%;
     height:auto;
     max-height:800px;
-    
 }
 .allPics {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
-    
-    
+    padding: 0 4px;  
 }
 .imgBackground {
-    opacity:0.9;
     width:40%;
     display:flex;
     align-items: center;
     margin-left:auto;
     margin-right:auto;
-    
-    
     height:800px;
 }
 .column {
@@ -45,73 +36,48 @@
     margin-top: 8px;
     max-height:500px;
     vertical-align: middle;
-    width: 100%;
-    
+    width: 100%;  
 }
 .column img:hover {
     opacity: 0.7;
 }
-/* .allPics img:hover {
-    
-    transform: scale(1.1);
-    box-shadow:0px 3px 12px black;
-} */
 .carousel a span {
     width:6rem;
     height:6rem;
 }
 @media (max-width:1300px){
-
-  .carousel {
-      margin-top:2rem;
-  }
   .allPics {
       padding:2rem;
     }
-    .carousel img {
-        height:400px;
+    .imgBackground {
+        width:70%;
     }
     .column {
-        flex: 50%;
+    flex: 50%;
     max-width: 50%;
     }
     .column img {
         max-height:400px;
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;   
     }
-    
-    /* .allPics img {
-        min-height:200px;
-        max-height:350px;
-    } */
 }
-@media (max-width:800px){
-    .carousel {
-        margin-top:0;
-        width:100%;
-    }
+@media (max-width:700px){
     .carousel img {
         width:100%;
-        height:500px;
+        max-height:fit-content;
     }
     .column img {
-        max-height:fit-content
+        max-height:fit-content 
     }
-    /* .allPics {
-        padding:1.2rem;
-        width:100%;
-        display:grid;
-        align-items: center;
-        justify-items: center;
-        gap:1rem;
-        grid-template-columns: 1fr  ; 
-    } */
-    /* .allPics img {
-        width:80%;
-        min-height: none;
-        max-height: none;
-        
-        
-    } */
+    .imgBackground {
+        height:500px;
+    }
+    .allPics {
+        padding:1rem;
+  
+    }
     .allPics img:hover {
        transform:none;
         

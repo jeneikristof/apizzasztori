@@ -19,7 +19,7 @@ import pizza16 from "./images/pizza16.jpg"
 import galery from "./CSS/Galery.module.css"
 import Footer from './Footer'
 import luigi from "./images/luigilogo2.svg"
-let pictures = [pizza2,pizza3,pizza4,pizza5,pizza6,pizza7,pizza8,pizza9,pizza10,pizza11,pizza12,pizza13,pizza14,pizza15,pizza16]
+let pictures = [pizza2,pizza3,pizza5,pizza6,pizza7,pizza8,pizza9,pizza10,pizza11,pizza12,pizza13,pizza14,pizza15,pizza16]
 export default function Galery(){
     return (
       <>
@@ -34,7 +34,7 @@ export default function Galery(){
             <div className={galery.column}>
     <img src={pizza2}/>
     <img src={pizza3}/>
-    <img src={pizza4}/>
+    <img src={pizza16}/>
     <img src={pizza5}/>
   
   </div>
@@ -49,13 +49,14 @@ export default function Galery(){
     <img src={pizza10}/>
     <img src={pizza11}/>
     <img src={pizza12}/>
-    <img src={pizza13}/>
+    
     
   </div>
             <div className={galery.column}>
     <img src={pizza14}/>
     <img src={pizza15}/>
-    <img src={pizza16}/>
+    <img src={pizza13}/>
+    
     
     
   
