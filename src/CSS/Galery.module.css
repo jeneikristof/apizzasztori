@@ -6,8 +6,11 @@
     background-color: black;
     margin-left:auto;
     margin-right:auto;
-    width:100%;
+    width:80%;
     box-shadow:0px 3px 12px black;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 .carousel img {
     width:40%;
@@ -17,7 +20,8 @@
 .allPics {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;  
+    padding: 0;  
+    
 }
 .imgBackground {
     width:40%;
@@ -31,6 +35,7 @@
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
+    
 }
 .column img {
     margin-top: 8px;
@@ -46,8 +51,11 @@
     height:6rem;
 }
 @media (max-width:1300px){
+  
   .allPics {
       padding:2rem;
+      padding-top: 0;
+      
     }
     .imgBackground {
         width:70%;
@@ -83,8 +91,8 @@
         
     }
     .column {
-        flex: 100%;
-        max-width: 100%;
+        flex: 50%;
+        max-width: 50%;
     }
 
 }

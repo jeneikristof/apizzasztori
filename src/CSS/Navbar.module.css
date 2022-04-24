@@ -52,11 +52,15 @@
     background:white;
   }
   @media (max-width:1300px){
-      .container {
-          
-        padding-right:2rem;
-        padding-left:2rem;
+    .container {
+        height:60px;
+        padding-right:1rem;
+        padding-left:1rem;
       }
+    .sztoriLogo {
+        width:60px;
+        
+    }
     .container p {
         font-size:2vw;
     }

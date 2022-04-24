@@ -13,6 +13,9 @@ p {
 .App footer p {
  font-size:1.7vw;
 }
-@media (max-width:1300px){
-
+@media (max-width:800px){
+    .App footer p {
+        font-size:2.5vw;
+        margin-bottom:0.8rem;
+       }
 }

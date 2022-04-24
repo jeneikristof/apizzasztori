@@ -66,3 +66,27 @@
         padding: 2.5rem;
     }
 }
+@media (max-width:700px){
+    .container h3 {
+        font-size: 3.8vw;
+    }
+
+    .container p, .container span {
+        font-size: 2.5vw;
+    }
+    .container p {
+        margin-bottom: 0.4rem;
+        margin-left:1rem
+
+    }
+    .headerImg {
+        display:none;
+    }
+    .container{
+        flex-direction: column;
+        padding: 1.5rem;
+    }
+    .leftDiv, .rightDiv {
+        width:100%;
+    }
+}

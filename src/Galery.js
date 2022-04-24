@@ -36,6 +36,7 @@ export default function Galery(){
     <img src={pizza3}/>
     <img src={pizza16}/>
     <img src={pizza5}/>
+    
   
   </div>
             <div className={galery.column}>

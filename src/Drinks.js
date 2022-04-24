@@ -51,7 +51,7 @@ export default function Drinks(){
                         <div><div className={DrinksStyle.shot}><p>Mlinari Limoncello</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Tátratea 62% erdeigyümölcs</p></div><div className={DrinksStyle.prices}><span>700 ft</span><span>1300 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Medicina pálinkák</p></div><div className={DrinksStyle.prices}><span>750 Ft</span><span>1450 Ft</span></div></div>
-                        <p>(Fürtös, Meggy, Szilva, Irsai Szőlő, Nektár Szőlő</p>
+                        <p>  - (Fürtös, Meggy, Szilva, Irsai Szőlő, Nektár Szőlő)</p>
                         <div><div><p>Bestillo Gönci Barackpálinka</p></div><div className={DrinksStyle.prices}><span>750 Ft</span><span>1450 Ft</span></div></div>
                     </div>
                 </div>

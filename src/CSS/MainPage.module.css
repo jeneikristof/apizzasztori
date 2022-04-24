@@ -305,5 +305,10 @@ body {
     .container {
         padding:0;
     }
+    .footer p {
+        font-size: 2.5vw;
+        margin-bottom:0.8rem;
+    }
+    
 }
 
