@@ -2,6 +2,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import React from 'react';
 import pizza from "./images/pizzafront.jpg"
 import luigi from "./images/luigilogo2.svg"
+import luigitablet from "./images/luigitablet.svg"
 import facebook from "./images/facebook.svg"
 import instagram from "./images/instagram.svg"
 import tripadvisor from "./images/tripadvisor.svg"
@@ -22,6 +23,7 @@ export default function MainPage() {
         </div>
         <div className={main.luigiLogo}>
           <img src={luigi}></img>
+          <img src={luigitablet}></img>
         </div>
         </div>
         <div className={main.icons}>

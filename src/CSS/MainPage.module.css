@@ -41,6 +41,10 @@ body {
     height:800px;
 }
 
+.luigiLogo :nth-child(2) {
+    display: none;
+}
+
 .icons {
     width: 100%;
     display: flex;
@@ -225,6 +229,17 @@ body {
     .luigiLogo {
         width:30%;
     }
+
+    .luigiLogo :nth-child(1) {
+        display: none;
+    }
+
+    .luigiLogo :nth-child(2) {
+        max-height: 800px;
+        display: block;
+    }
+
+
     .icons a {
         display:none;
     }
@@ -276,8 +291,7 @@ body {
     }
     .carouselAndLuigi {
         display:flex;
-        align-items: flex-end;
-       
+        justify-content: space-between;
     }
     
 }
