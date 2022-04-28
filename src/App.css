@@ -14,6 +14,24 @@ p {
 .App footer p {
  font-size:1.7vw;
 }
+/* navbar cc*/
+.bg-myRed{
+  background-color: #e9cfbf;
+}
+.nav-link {
+    color:black;
+}
+
+
+.coloring{
+  color: black;
+}
+@media (max-width: 800px){
+
+    .navbar-expand-sm .navbar-toggler {
+        display: block;
+    }
+}
 @media (max-width:800px){
     .App footer p {
         font-size:2.5vw;
