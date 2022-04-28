@@ -19,6 +19,7 @@
     align-items: center;
     margin-bottom: 3rem;
     padding: 2rem;
+    gap: 2rem
 }
 
 .contact {
@@ -117,5 +118,33 @@
         width: 100%;
         
        
+    }
+}
+
+@media (max-width:700px){
+    .wrapper {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: flex-start;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .contact {
+        width: 80%;
+    }
+
+    .contact img {
+        width: 2rem;
+    }
+
+    .contact h3 {
+        font-size: 1.5rem;
+    }
+
+    .contact p {
+        font-size: 1.25rem;
     }
 }

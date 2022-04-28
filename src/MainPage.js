@@ -5,7 +5,7 @@ import luigi from "./images/luigilogo2.svg"
 import luigitablet from "./images/luigitablet.svg"
 import facebook from "./images/facebook.svg"
 import instagram from "./images/instagram.svg"
-import tripadvisor from "./images/tripadvisor.svg"
+import google from "./images/googleicon.svg"
 import main from "./CSS/MainPage.module.css"
 import pizza1 from "./images/pizzafront.jpg"
 import pizza2 from "./images/pizza15.jpg"
@@ -34,7 +34,7 @@ export default function MainPage() {
         <div className={main.icons}>
           <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
           <a href="https://www.instagram.com/apizzasztori/" target="_blank"><img src={instagram}></img></a>
-          {/* <a href="https://www.google.com/maps/place/Pizza+sztori/@46.705133,17.3717432,17z/data=!4m5!3m4!1s0x4768ffd5c5ef2447:0x4a9c52173a2d1c48!8m2!3d46.705133!4d17.3739319?hl=hu" target="_blank"><img src="https://img.icons8.com/ios-filled/2x/google-web-search.png"></img></a> */}
+          <a href="https://www.google.com/search?q=a+pizzasztori&sxsrf=ALiCzsakXEv3ObcUPc45aLhTJsAlp4-VDQ%3A1651146879635&source=hp&ei=f4BqYs6rJMemaPGcv6AK&iflsig=AJiK0e8AAAAAYmqOjygCL7LlZF-ItxA8ehh1eFfLiVJU&ved=0ahUKEwiO5-u52bb3AhVHExoKHXHOD6QQ4dUDCAc&uact=5&oq=a+pizzasztori&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELACECcyCgguEMcBEK8BEA06BwgjEOoCECc6BAgjECc6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARCjAjoICC4QsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOg4ILhCABBCxAxDHARCjAjoFCC4QgAQ6BQgAEIAEOggILhCABBCxAzoLCC4QsQMQgwEQ1AI6CAguEIAEENQCOgsILhCABBDHARCvAToFCAAQywE6CAgAEMkDEMsBOgYIABAWEB46BAguEA06BQghEKABUO0ZWJQpYOgqaAFwAHgAgAG2AYgBzgySAQQwLjEzmAEAoAEBsAEK&sclient=gws-wiz#lrd=0x4768ffd5c5ef2447:0x4a9c52173a2d1c48,1,,," target="_blank"><img src={google}></img></a>
         </div>
         <div className={main.flex}>
 
@@ -71,7 +71,7 @@ export default function MainPage() {
         <div className={main.bottomIcons}>
           <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
           <a href="https://www.instagram.com/apizzasztori/" target="_blank"><img src={instagram}></img></a>
-          {/* <a href="https://www.google.com/maps/place/Pizza+sztori/@46.705133,17.3717432,17z/data=!4m5!3m4!1s0x4768ffd5c5ef2447:0x4a9c52173a2d1c48!8m2!3d46.705133!4d17.3739319?hl=hu" target="_blank"><img src={tripadvisor}></img></a> */}
+          <a href="https://www.google.com/search?q=a+pizzasztori&sxsrf=ALiCzsakXEv3ObcUPc45aLhTJsAlp4-VDQ%3A1651146879635&source=hp&ei=f4BqYs6rJMemaPGcv6AK&iflsig=AJiK0e8AAAAAYmqOjygCL7LlZF-ItxA8ehh1eFfLiVJU&ved=0ahUKEwiO5-u52bb3AhVHExoKHXHOD6QQ4dUDCAc&uact=5&oq=a+pizzasztori&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELACECcyCgguEMcBEK8BEA06BwgjEOoCECc6BAgjECc6CwgAEIAEELEDEIMBOhEILhCABBCxAxCDARDHARCjAjoICC4QsQMQgwE6EQguEIAEELEDEIMBEMcBENEDOg4ILhCABBCxAxDHARCjAjoFCC4QgAQ6BQgAEIAEOggILhCABBCxAzoLCC4QsQMQgwEQ1AI6CAguEIAEENQCOgsILhCABBDHARCvAToFCAAQywE6CAgAEMkDEMsBOgYIABAWEB46BAguEA06BQghEKABUO0ZWJQpYOgqaAFwAHgAgAG2AYgBzgySAQQwLjEzmAEAoAEBsAEK&sclient=gws-wiz#lrd=0x4768ffd5c5ef2447:0x4a9c52173a2d1c48,1,,," target="_blank"><img src={google}></img></a>
         </div>
         <div className={main.footer}>
         <p>A PIZZA SZTORI</p>
