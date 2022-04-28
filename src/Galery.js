@@ -80,7 +80,7 @@ function ControlledCarousel() {
     };
   
     return (
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel  onSelect={handleSelect}>
           {pictures.map((elem,i) => <Carousel.Item key={i}>
             <div className={galery.imgBackground}>
 

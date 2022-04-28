@@ -22,7 +22,7 @@ export default function Contact(){
                     <div><img src={phone}></img><p>+36 20 442 3800</p></div>
                     <div><img src={email}></img><p>info@apizzasztori.hu</p></div>
                 </div>
-                <div className={ContactStyle.formWrapper}>
+                {/* <div className={ContactStyle.formWrapper}>
                     <h3>Küldjön nekünk üzenetet</h3>
                     <form action="">
                         <input type="text" placeholder="Név" onChange={() => setName(name)}/>
@@ -32,11 +32,11 @@ export default function Contact(){
 
                     </form>
 
-                </div>
+                </div> */}
 
-            </div>
             <div className={ContactStyle.map}>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2736.0302983118263!2d17.37174321582408!3d46.7051366578042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4768ffd5c5ef2447%3A0x4a9c52173a2d1c48!2sPizza%20sztori!5e0!3m2!1shu!2shu!4v1649243577544!5m2!1shu!2shu"></iframe>
+            </div>
             </div>
         </div>
             <Footer />

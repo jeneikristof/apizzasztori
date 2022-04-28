@@ -49,7 +49,7 @@
   }
  .right a:hover,.right a:focus {
     color:#E04917;
-    background:white;
+    opacity:0.8
   }
   @media (max-width:1300px){
     .container {

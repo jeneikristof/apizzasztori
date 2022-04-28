@@ -8,14 +8,35 @@
     
     border-radius: 1rem;
     box-sizing: border-box;
-    background-color: #E9CFBF;
+    
     display: flex;
     width: 80%;
     justify-content: center;
     margin-bottom: 3rem;
+    gap:3rem;
     padding: 2rem;
+    padding-top: 0;
 
 }
+.flexbox div {
+    padding:2rem;
+    flex:25%;
+    flex-wrap: wrap;
+    border-radius:10%;
+    background-color: #E9CFBF;
+    height:fit-content;
+}
+.flexbox div:hover {
+    opacity:0.7;
+}
+.flexbox a  {
+    text-decoration: none;
+    color:#1D1C1A;
+    font-size: 1vw;
+    font-weight: bolder;
+}
 .flexbox img {
-    width:80%;
+    width:100%;
+   
+    margin-bottom:2rem;
 }

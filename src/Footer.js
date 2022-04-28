@@ -9,7 +9,7 @@ export default function Footer(){
 <div className={main.bottomIcons}>
   <a href="https://www.facebook.com/APizzaSztori" target="_blank"><img src={facebook}></img></a>
   <a href="https://www.instagram.com/" target="_blank"><img src={instagram}></img></a>
-  <a href="https://www.tripadvisor.com/" target="_blank"><img src={tripadvisor}></img></a>
+  {/* <a href="https://www.tripadvisor.com/" target="_blank"><img src={tripadvisor}></img></a> */}
 </div>
 <div className={main.footer}>
     <p>A PIZZA SZTORI</p>
