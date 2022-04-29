@@ -32,12 +32,17 @@ export default function NavBar() {
         <Navbar.Toggle className="coloring" />
         <Navbar.Collapse>
           <Nav style={{fontWeight:"bold"}}>
-      
+               <NavLink to="/etlap"><p>Étlap</p></NavLink>
+                    <NavLink to="/itallap"><p>Itallap</p></NavLink>
+                    <NavLink to="/galeria"><p>Galéria</p></NavLink>
+                    <NavLink to="/kapcsolat"><p>Kapcsolat</p></NavLink>
+                    <NavLink to="/cikkek"><p>Cikkek</p></NavLink>
+                    {/*  
             <Nav.Link href="etlap" >Étlap</Nav.Link>
             <Nav.Link href="itallap">Itallap</Nav.Link>
             <Nav.Link href="galeria">Galéria</Nav.Link>
             <Nav.Link href="kapcsolat">Kapcsolat</Nav.Link>
-            <Nav.Link href="cikkek">Cikkek</Nav.Link>
+            <Nav.Link href="cikkek">Cikkek</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
 

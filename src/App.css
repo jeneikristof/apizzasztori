@@ -21,11 +21,17 @@ p {
 .nav-link {
     color:black;
 }
-
-
-.coloring{
-  color: black;
+.navbar-nav a {
+    text-decoration: none;
+    color:#1D1C1A;
 }
+.navbar-nav a:hover {
+    text-decoration: none;
+    color:grey;
+    
+}
+
+
 @media (max-width: 800px){
 
     .navbar-expand-sm .navbar-toggler {
