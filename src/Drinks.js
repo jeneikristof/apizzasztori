@@ -1,6 +1,6 @@
 import DrinksStyle from "./CSS/Drinks.module.css"
 import Footer from "./Footer"
-import DrinksHeader from "./images/drinkheader.png"
+import DrinksHeader from "./images/drinkheader.svg"
 import DrinksFooter from "./images/menufooter.svg"
 
 export default function Drinks(){
