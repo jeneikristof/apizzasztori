@@ -1,3 +1,10 @@
+.footer a {
+    text-decoration: none;
+    color:#1D1C1A;
+}
+.container p {
+    color:#1D1C1A;
+}
 @media (min-width:1300px){
 .carousel {
     width:60%;
@@ -19,6 +26,7 @@ body {
     
     
 }
+
 .backgroundCarousel {
     position:relative;
     display:flex;
@@ -105,7 +113,9 @@ body {
     font-size:0.35em;
     font-family: 'Lora', serif;  
     font-weight:bolder;
+    
 }
+
 .pizzaOven {
     position:absolute;
     width:100%;
@@ -119,14 +129,10 @@ body {
     width:100%;
 }
 .bottomWrapper {
-    /* position: absolute; */
     bottom: 0;
     width: 100%;
-    
     display:block;
     overflow: hidden;
-    
-   
 }
 .bottomIcons {
     display:flex;
@@ -153,7 +159,6 @@ body {
     font-weight: bold;
     font-family: Arial;
     font-size: 4rem;
-    /* line-height: 120px; */
     text-align: center;
     width: 40%;
     height: fit-content;
@@ -170,7 +175,6 @@ body {
     font-weight: bold;
     font-family: Arial;
     font-size: 3rem;
-    /* line-height: 120px; */
     text-align: center;
     width: 40%;
     height: fit-content;
@@ -311,11 +315,9 @@ body {
         display:none;
     }
     .carousel {
-        width:100%;
-        
+        width:100%;  
     }
     .carousel img {
-        
         height:auto;
     }
     .textarea h1 {
