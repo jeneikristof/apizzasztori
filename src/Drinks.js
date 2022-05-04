@@ -5,7 +5,7 @@ import DrinksFooter from "./images/menufooter.svg"
 
 export default function Drinks(){
     return (
-        <>  
+        <div className={DrinksStyle.wrapper}>  
             <div className={DrinksStyle.headerImg}>
                 <img src={DrinksHeader}/>
             </div>
@@ -101,10 +101,10 @@ export default function Drinks(){
                     </div>
                 </div>
             </div>
-                <div className={DrinksStyle.headerImg}>
+                <div className={DrinksStyle.footerImg}>
                     <img src={DrinksFooter}/>
                 </div>
             <Footer />
-        </>
+        </div>
     )
 }
