@@ -157,10 +157,10 @@ body {
     background: #e04917;
     color: black;
     font-weight: bold;
-    font-family: Arial;
-    font-size: 4rem;
+    font-family: 'Lora', serif;
+    font-size: 2rem;
     text-align: center;
-    width: 40%;
+    width: 30%;
     height: fit-content;
     border:3px solid black;
     border-radius: 10px;
@@ -173,8 +173,6 @@ body {
     background: #e04917;
     color: black;
     font-weight: bold;
-    font-family: Arial;
-    font-size: 3rem;
     text-align: center;
     width: 40%;
     height: fit-content;
@@ -223,6 +221,14 @@ body {
     box-sizing: border-box;
 
 }
+.bubbles p {
+    font-size: 2vw;
+}
+
+.hiddenBubble {
+    display: none;
+}
+
 }
 @media (max-width:1300px){
     .container * {
@@ -259,8 +265,6 @@ body {
         display:none;
     }
     .bottomWrapper {
-        display:flex;
-        flex-direction: column;
         align-items: center;
     }
     .bottomIcons {
@@ -310,6 +314,26 @@ body {
     .carouselAndLuigi {
         display:flex;
         justify-content: space-between;
+    }
+    .hiddenBubble {
+        margin-top: 1rem;
+        background-color: #e04917;
+        opacity: 0.9;
+    }
+    .hiddenBubble a {
+        text-decoration: none;
+        color: #1D1C1A;
+    }
+
+    .hiddenBubble a:hover {
+        color: #1D1C1A;
+    }
+
+    .hiddenBubble h3 {
+        font-size: 3vw;
+        font-weight: bold;
+        padding: 0.25rem;
+        font-family: 'Lora', serif;  
     }
     
 }
