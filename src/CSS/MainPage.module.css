@@ -272,6 +272,9 @@ body {
     .bottomIcons a {
         width:100%;
     }
+    .footer a:hover {
+        color:#1D1C1A;
+    }
     .footer {
         text-align: center;
     }

@@ -14,6 +14,9 @@ p {
 .App footer p {
  font-size:1.7vw;
 }
+.App footer a:hover {
+    color:#1D1C1A;
+}
 /* navbar cc*/
 .bg-myRed{
   background-color: #e9cfbf;

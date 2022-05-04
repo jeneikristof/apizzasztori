@@ -13,7 +13,7 @@ export default function Footer(){
 </div>
 <div className={main.footer}>
     <p>A PIZZA SZTORI</p>
-    <p>+36 20 442 3800</p>
+    <a href="tel:+36204423800"><p>+36 20 442 3800</p></a>
     <p>2022 ©</p>
 </div>
 </footer>
