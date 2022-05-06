@@ -5,6 +5,7 @@ import phone from "./images/phone.svg"
 import email from "./images/email.svg"
 import React from "react"
 import Footer from "./Footer"
+import ContactFooter from "./images/contactfooter.svg"
 
 
 export default function Contact(){
@@ -39,6 +40,7 @@ export default function Contact(){
             </div>
             </div>
         </div>
+            <img src={ContactFooter}/>
             <Footer />
         </>
     )

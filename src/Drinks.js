@@ -24,8 +24,8 @@ export default function Drinks(){
                     </div>
                     <div>
                         <h3>PEZSGŐK</h3>
-                        <div><p>Hungráia Extra Dry 0,2 l</p><span>1.190 Ft</span></div>
-                        <div><p>Hungráia Extra Dry 0,75 l</p><span>3.900 Ft</span></div>
+                        <div><p>Hungária Extra Dry (0,2 l)</p><span>1.190 Ft</span></div>
+                        <div><p>Hungária Extra Dry (0,75 l)</p><span>3.900 Ft</span></div>
                     </div>
                     <div>
                         <div><div className={DrinksStyle.shot}><h3>CSAPOLT SÖRÖK</h3></div><div className={DrinksStyle.prices}><span>0,3l</span><span>0,5 l</span></div></div>
@@ -34,13 +34,13 @@ export default function Drinks(){
                     <div>
                         <h3>ÜVEGES SÖRÖK</h3>
                         <div><p>Pilsner Urquell (0,5 l)</p><span>800 Ft</span></div>
-                        <div><p>Peroni(0,33 l)</p><span>600 Ft</span></div>
-                        <div><p>Pécsi Gluténmentes(0,33 l)</p><span>650 Ft</span></div>
-                        <div><p>Dreher alkoholmentes(0,33 l)</p><span>550 Ft</span></div>
+                        <div><p>Peroni (0,33 l)</p><span>600 Ft</span></div>
+                        <div><p>Pécsi Gluténmentes (0,33 l)</p><span>650 Ft</span></div>
+                        <div><p>Dreher alkoholmentes (0,33 l)</p><span>550 Ft</span></div>
                     </div>
                     <div>
                         <div><div className={DrinksStyle.shot}><h3>RÖVID ITALOK</h3></div><div className={DrinksStyle.prices}><span>2cl</span><span>4cl</span></div></div>
-                        <div><div className={DrinksStyle.shot}><p>Jagermeister</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Jägermeister</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Uncium</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Baileys</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Finlandia Vodka</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
@@ -48,7 +48,7 @@ export default function Drinks(){
                         <div><div className={DrinksStyle.shot}><p>Jameson</p></div><div className={DrinksStyle.prices}><span>550 ft</span><span>950 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Jack Daniel's</p></div><div className={DrinksStyle.prices}><span>550 ft</span><span>950 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Bombay gin</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
-                        <div><div className={DrinksStyle.shot}><p>Mlinari Limoncello</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Molinari Limoncello</p></div><div className={DrinksStyle.prices}><span>550 Ft</span><span>950 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Tátratea 62% erdeigyümölcs</p></div><div className={DrinksStyle.prices}><span>700 ft</span><span>1300 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Medicina pálinkák</p></div><div className={DrinksStyle.prices}><span>750 Ft</span><span>1450 Ft</span></div></div>
                         <p>  - (Fürtös, Meggy, Szilva, Irsai Szőlő, Nektár Szőlő)</p>
@@ -57,14 +57,14 @@ export default function Drinks(){
                 </div>
                 <div className={DrinksStyle.rightDiv}>
                     <div>
-                        <h3>ÜDÍTŐK (0,25L)</h3>
+                        <h3>ÜDÍTŐK (0,25 l)</h3>
                         <div><p>Coca-Cola, Coca-Cola zero</p><span>450 Ft</span></div>
                         <div><p>Fanta</p><span>450 Ft</span></div>
                         <div><p>Kinley Gyömbér</p><span>450 Ft</span></div>
                         <div><p>Kinley Tonic</p><span>450 Ft</span></div>
                         <div><p>Cappy Alma</p><span>450 Ft</span></div>
                         <div><p>Cappy Narancs</p><span>450 Ft</span></div>
-                        <div><p>Natur Aqua Ásványvíz (0,33 l)</p><span>400 Ft</span></div>
+                        <div><p>Natur Aqua ásványvíz (0,33 l)</p><span>400 Ft</span></div>
                         <div><p>Bomba energiaital (0,25 l)</p><span>550 Ft</span></div>
                     </div>
                     <div>
@@ -91,7 +91,7 @@ export default function Drinks(){
                         <p>Aktuális teakínálatunkról érdeklődjön felszolgálóinknál!</p>
                     </div>
                     <div>
-                        <h3>LIMONÁDÉK (0,4 L)</h3>
+                        <h3>LIMONÁDÉK (0,4 l)</h3>
                         <div><p>Citrusos</p><span>890 Ft</span></div>
                         <div><p>Epres</p><span>890 Ft</span></div>
                         <div><p>Maracujás</p><span>890 Ft</span></div>
