@@ -10,11 +10,11 @@
     box-sizing: border-box;
     
     display: flex;
-    width: 80%;
-    justify-content: center;
+    width: 90%;
+    justify-content: space-between;
     margin-bottom: 3rem;
     gap:3rem;
-    padding: 2rem;
+    padding: 0;
     padding-top: 0;
 
 }
@@ -32,11 +32,25 @@
 .flexbox a  {
     text-decoration: none;
     color:#1D1C1A;
-    font-size: 1vw;
+    font-size: 1.5vw;
     font-weight: bolder;
 }
 .flexbox img {
     width:100%;
    
     margin-bottom:2rem;
+}
+@media (max-width:800px){
+    .container {
+        margin-top: 0;
+    }
+    .flexbox {
+        flex-direction: column;
+        width:100%;
+        padding:1rem;
+        gap:1rem;
+    }
+    .flexbox a {
+        font-size:4vw;
+    }
 }

@@ -41,7 +41,7 @@ export default function Drinks(){
                     <div>
                         <div><div className={DrinksStyle.shot}><h3>RÖVID ITALOK</h3></div><div className={DrinksStyle.prices}><span>2cl</span><span>4cl</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Jägermeister</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
-                        <div><div className={DrinksStyle.shot}><p>Uncium</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
+                        <div><div className={DrinksStyle.shot}><p>Unicum</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Baileys</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Finlandia Vodka</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>
                         <div><div className={DrinksStyle.shot}><p>Bacardi Carta Blanca</p></div><div className={DrinksStyle.prices}><span>500 Ft</span><span>900 Ft</span></div></div>

@@ -9,9 +9,6 @@ import ContactFooter from "./images/contactfooter.svg"
 
 
 export default function Contact(){
-    let [message, setMessage] = React.useState("")
-    let [emailState,setEmailState] = React.useState("")
-    let [name,setName] = React.useState("")
     return (
         <>
         <div className={ContactStyle.container}>
