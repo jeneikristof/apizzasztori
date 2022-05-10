@@ -14,6 +14,7 @@ import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
 let pizzak =[pizza1,pizza2,pizza3,pizza4]
 export default function MainPage() {
+  document.title = "A Pizza Sztori";
   return (
     <>
       <div className={main.container}>
