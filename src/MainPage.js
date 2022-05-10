@@ -62,13 +62,13 @@ export default function MainPage() {
         <div className={main.pizzaOven}>
           <img src={pizza5} />
           <div className={main.bubbles}>
-            <div className={main.bubble}><p>Asztalfoglalás:</p><p>+36 30 852 6455</p></div>
+            <div className={main.bubble}><p>Asztalfoglalás:</p><p>+36 20 442 3800</p></div>
             <div className={main.bubbleRight}><p>Kóstold meg kemencében sült, nápolyi recept alapján készített pizzánkat!</p></div>
           </div>
         
         <div className={`${main.hiddenBubble} ${main.textarea}`}>
           <h1>Kóstold meg kemencében sült, nápolyi recept alapján készített pizzánkat!</h1> 
-          <h3>Asztalfoglalás: <a href="tel:+36308526455">+36 30 852 6455</a></h3>
+          <h3>Asztalfoglalás: <a href="tel:+36308526455">+36 20 442 3800</a></h3>
           
         </div>
         <div className={main.bottomWrapper}>
