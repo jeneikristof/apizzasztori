@@ -12,7 +12,8 @@ import pizza2 from "./images/pizza15.jpg"
 import pizza3 from "./images/pizza3.jpg"
 import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
-let pizzak =[pizza1,pizza2,pizza3,pizza4]
+import honappizza from "./images/honappizza.jpg"
+let pizzak =[honappizza,pizza1,pizza2,pizza3]
 export default function MainPage() {
   document.title = "A Pizza Sztori";
   return (
@@ -41,23 +42,17 @@ export default function MainPage() {
 
         <div className={main.textarea}>
           <h1>Köszöntünk éttermünkben!</h1>
+          <p>A Balaton déli partjának első nápolyi stílusú pizzája, fatüzelésű látványkemencéből! Gyere és látogass meg minket Balatonmáriafürdőn!🔥🍕</p>
           <p>
-            Pizza ipsum dolor amet philly steak chicken and bacon anchovies
-            chicken wing meat lovers stuffed thin crust red onions party white
-            pizza.  Bacon & tomato thin crust sausage, stuffed crust chicken
-            wing philly steak white garlic bbq sauce ranch buffalo sauce extra
-            cheese platter bianca.  Pepperoni sausage bacon & tomato bbq sauce
-            ricotta.  Parmesan spinach garlic parmesan sausage large, mozzarella
-            steak green bell peppers pan meatball.  Red onions onions personal,
-            marinara black olives stuffed crust sausage bbq rib sausage pesto.
-            Bbq
-            sauce party chicken wing, bacon marinara stuffed crust sausage ricotta
-            parmesan large.  Peppers white pizza pan pepperoni pizza meatball,
-            anchovies broccoli.  Bbq rib ricotta garlic sauce bacon & tomato.
-            Stuffed pesto meatball deep crust.  Marinara sauteed onions mayo
-            mushrooms.  Steak pie sausage, bbq mushrooms mozzarella stuffed platter
-            lasagna buffalo sauce philly steak chicken wing.
+          Tudtátok, hogy mostantól minden hónapban egy aktuális és szezonális alapanyagra épülő különleges ízvilágú hónap pizzájával várunk Titeket extra ajánlatként? 🤩🍕 Kérjétek most május végéig még a medvehagyma pestoval és pármai sonkából készült lekvárral elkészített ínyencséget! 🌱🥩👌
           </p>
+          <div className={main.opening}>
+            <h1>Nyitvatartás:</h1>
+          <div>
+            <p>Hétfő-Csütörtök : Zárva!</p>
+            <p>Péntek-Vasárnap : 12:00 - 21:00</p>
+          </div>
+          </div>
         </div>
         </div>
         <div className={main.pizzaOven}>

@@ -20,7 +20,13 @@
 .grid > div:nth-child(12) h3 {
     font-size: 1.22rem;
 }
-
+.text {
+    text-align: center;
+    margin-top:6rem ;
+    margin-bottom:6rem ;
+    padding:1rem;
+    background-color: #e9cfbf;
+}
 .border {
     border-bottom: 1px dotted black;
 }
