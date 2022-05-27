@@ -21,63 +21,63 @@ export default function Food() {
         },
         {
             name: "MARGHERITA",
-            price: 2390,
+            price: 2490,
             description: "",
             ingredients: "San Marzano Paradicsom, Mozzarella di Bufala, Parmezán, Bazsalikom, Extra szűz olívaolaj",
             allergens: [1, 7]
         },
         {
             name: "COTTO",
-            price: 2690,
+            price: 2650,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Prosciutto Cotto, Parmezán",
             allergens: [1, 7]
         },
         {
             name: "NAPOLI",
-            price: 2790,
+            price: 2750,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Napoli szalámi, Szárított Paradicsom",
             allergens: [1, 7]
         },
         {
             name: "CALZONE",
-            price: 2890,
+            price: 2950,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Salsiccia, Gorgonzola, Parmezán",
             allergens: [1, 7]
         },
         {
             name: "PARMA",
-            price: 2990,
+            price: 2950,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Pesto Rosso, Pármai sonka, Fenyőmag, Borsóhajtás",
             allergens: [1, 7, 8]
         },
         {
             name: "BIANCO",
-            price: 2990,
+            price: 2950,
             description: "",
             ingredients: "Mozzarella di Bufala, Pancetta, Bébispenót, Ricotta, Pisztácia, Extra szűz olívaolaj",
             allergens: [1, 7, 8]
         },
         {
             name: "BUFALA",
-            price: 2990,
+            price: 2950,
             description: "",
             ingredients: "San Marzano Paradicsom, Mozzarella di Bufala, Rukkola, Pármai Sonka, Pesto Genovese, Parmezán",
             allergens: [1, 7, 8]
         },
         {
             name: "MARE",
-            price: 3190,
+            price: 3090,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Szardella, Gyöngyhagyma, Kapros Mascarpone",
             allergens: [1, 4, 7]
         },
         {
             name: "TRUFFLE",
-            price: 3190,
+            price: 3090,
             description: "",
             ingredients: "Mozzarella di Bufala, Pármai sonka, Fenyőmag, Szarvasgomba paté, Parmezán, Borsóhajtás",
             allergens: [1, 7, 8]
