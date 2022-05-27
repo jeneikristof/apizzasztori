@@ -6,6 +6,7 @@ export default function News(){
     return (
         <>
         <div className={NewsStyle.container}>
+            <iframe   src="https://www.youtube.com/embed/1pFHb3sMBew" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <div className={NewsStyle.flexbox}>
                 <div>
                 <a href="https://gusto.hu/gasztrohirek/megnyilt-a-deli-part-elso-napolyi-pizzazoja" target="_blank">
@@ -28,6 +29,7 @@ export default function News(){
                 </a>
                 </div>
             </div>
+            
             
 
         </div>

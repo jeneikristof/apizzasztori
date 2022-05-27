@@ -26,6 +26,7 @@
     margin-bottom:6rem ;
     padding:1rem;
     background-color: #e9cfbf;
+    font-family:'Paytone One', sans-serif;
 }
 .border {
     border-bottom: 1px dotted black;
@@ -39,7 +40,7 @@
     justify-content: space-between;
     align-items: center;
 }
-.nameAndPrice p {
+.nameAndPrice p, .blackDivs p {
   margin:0;
 }
 .blackDivs {
@@ -52,9 +53,22 @@
     color:white;
     background-color: black;
 }
+.blackDivs2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:25px;
+    min-width:25px;
+    border-radius: 50%;
+    color:white;
+    background-color: black;
+}
 
 .blackDivs p {
     font-size: 0.75vw;
+}
+.blackDivs2 p {
+    font-size: 0.85vw;
 }
 
 .flex {
@@ -66,6 +80,32 @@
 }
 .container h3 {
     font-size: 1.6rem;
+}
+.allergenWrapper {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    gap:5rem;
+    margin-bottom: 5rem;
+}
+.allergenWrapper p {
+    margin:0;
+    
+}
+.right, .left {
+    display:flex;
+    gap:1rem;
+    flex-direction: column;
+    width:50%;
+    
+}
+
+.column {
+    display:flex;
+    gap:1rem;
+    align-items:baseline;
+    
 }
 
 @media (max-width:1300px){
@@ -99,6 +139,9 @@
     .grid p {
         font-size: 1.5vw;
     }
+    .allergenWrapper {
+        width:90%;
+    }
 }
 @media (max-width:800px){
     .container img:first-child {
@@ -127,5 +170,19 @@
     }
     .grid h3 {
         font-size: 3.5vw;
+    }
+    .allergenWrapper {
+        display:none;
+    }
+    .text2 {
+        display:none;
+    }
+    .grid2 div:nth-child(4) {
+        border-bottom: none;
+    }
+    .text {
+        padding:0.2rem;
+        margin-top:2rem ;
+        margin-bottom:2rem ;
     }
 }
