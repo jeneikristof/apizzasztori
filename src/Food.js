@@ -28,56 +28,56 @@ export default function Food() {
         },
         {
             name: "COTTO",
-            price: 2650,
+            price: 2690,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Prosciutto Cotto, Parmezán",
             allergens: [1, 7]
         },
         {
             name: "NAPOLI",
-            price: 2750,
+            price: 2790,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Napoli szalámi, Szárított Paradicsom",
             allergens: [1, 7]
         },
         {
             name: "CALZONE",
-            price: 2950,
+            price: 2890,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Salsiccia, Gorgonzola, Parmezán",
             allergens: [1, 7]
         },
         {
             name: "PARMA",
-            price: 2950,
+            price: 2990,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Pesto Rosso, Pármai sonka, Fenyőmag, Borsóhajtás",
             allergens: [1, 7, 8]
         },
         {
             name: "BIANCO",
-            price: 2950,
+            price: 2990,
             description: "",
             ingredients: "Mozzarella di Bufala, Pancetta, Bébispenót, Ricotta, Pisztácia, Extra szűz olívaolaj",
             allergens: [1, 7, 8]
         },
         {
             name: "BUFALA",
-            price: 2950,
+            price: 2990,
             description: "",
             ingredients: "San Marzano Paradicsom, Mozzarella di Bufala, Rukkola, Pármai Sonka, Pesto Genovese, Parmezán",
             allergens: [1, 7, 8]
         },
         {
             name: "MARE",
-            price: 3090,
+            price: 3190,
             description: "",
             ingredients: "San Marzano Paradicsom, Fior di Latte, Szardella, Gyöngyhagyma, Kapros Mascarpone",
             allergens: [1, 4, 7]
         },
         {
             name: "TRUFFLE",
-            price: 3090,
+            price: 3190,
             description: "",
             ingredients: "Mozzarella di Bufala, Pármai sonka, Fenyőmag, Szarvasgomba paté, Parmezán, Borsóhajtás",
             allergens: [1, 7, 8]
@@ -123,6 +123,14 @@ export default function Food() {
             description: "",
             ingredients: "Szezonális gyümölcsökkel",
             allergens: [7]
+
+        },
+        {
+            name: "LASAGNE",
+            price: 2990,
+            description: "",
+            ingredients: "",
+            allergens: [1,3,7,9]
 
         }
     ]

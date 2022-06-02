@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
+    <!-- <script>
          let pizzas = {
         PORTAFOGLIO: {
             price:1790,
@@ -89,6 +89,30 @@
             
         
     
+    </script> -->
+    <script>
+        function longest(str) {
+            const alphabet = "abcdefghijklmnopqrstuvwxyz";
+            let longOnes = [];
+            let word = "";
+            let j = 0;
+            for(let i = 0; i < str.length; i++){
+                j = i   
+                while(alphabet.indexOf(str[j]) <= alphabet.indexOf(str[j+1])  ){
+                    word += str[j]
+                    j++
+                }
+                word+= str[j]
+                longOnes.push(word)
+                word = ""
+            }
+            console.log(longOnes)
+            if(longOnes)
+            return longOnes.reduce((a,b) => a.length >= b.length ? a: b)
+        }
+        console.log(longest("asdfaaaabbbbcttavvfffffdf"))
+        console.log(longest("abcdeapbcdef"))
+
     </script>
 </body>
 </html>

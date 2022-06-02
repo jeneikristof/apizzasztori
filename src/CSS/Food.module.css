@@ -68,7 +68,7 @@
     font-size: 0.75vw;
 }
 .blackDivs2 p {
-    font-size: 0.85vw;
+    font-size: 0.85rem;
 }
 
 .flex {
@@ -133,14 +133,18 @@
     }
 
     .grid h3 {
-        font-size: 3vw;
+        font-size: 2.8vw;
     }
     
     .grid p {
         font-size: 1.5vw;
     }
+   
     .allergenWrapper {
         width:90%;
+    }
+    .grid2 div:nth-child(5) {
+        border-bottom: none;
     }
 }
 @media (max-width:800px){
@@ -177,7 +181,7 @@
     .text2 {
         display:none;
     }
-    .grid2 div:nth-child(4) {
+    .grid2 div:nth-child(5) {
         border-bottom: none;
     }
     .text {
