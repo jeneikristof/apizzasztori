@@ -20,6 +20,9 @@
 .grid > div:nth-child(12) h3 {
     font-size: 1.22rem;
 }
+.grid2 > div:nth-child(5) h3 {
+    font-size: 1.22rem;
+}
 .text {
     text-align: center;
     margin-top:6rem ;
@@ -169,6 +172,9 @@
     .grid > div:nth-child(12) h3 {
         font-size: 3vw;
     }
+    .grid2 > div:nth-child(5) h3 {
+        font-size: 3vw;
+    }
     .grid p {
         font-size: 2.4vw;
     }
@@ -184,6 +190,7 @@
     .grid2 div:nth-child(5) {
         border-bottom: none;
     }
+    
     .text {
         padding:0.2rem;
         margin-top:2rem ;

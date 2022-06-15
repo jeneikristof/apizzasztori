@@ -97,23 +97,23 @@ export default function Food() {
             name: "PARADICSOMLEVES ",
             price: 1190,
             description: "",
-            ingredients: "Parmezán chipsszel",
-            allergens: [7, 9]
+            ingredients: "Parmezán chips",
+            allergens: [7]
 
         },
         {
             name: "RUKKOLA SALÁTA",
             price: 2190,
             description: "",
-            ingredients: "Pármai sonka, Mozzarella di Bufala, Pesto rosso, Parmezán",
-            allergens: [5, 7, 8]
+            ingredients: "Modenai balzsamecet, Pármai sonka, Parmezán, Mozzarella, Pesto rosso, Pirított magvak",
+            allergens: [7, 8]
 
         },
         {
             name: "PIZZAKENYÉR ",
             price: 1490,
             description: "",
-            ingredients: "Fokhagymás borsos Ricottával",
+            ingredients: "Fokhagymás borsos Ricotta mártogatóssal",
             allergens: [1, 7]
 
         },
@@ -121,12 +121,12 @@ export default function Food() {
             name: "PANNA COTTA",
             price: 990,
             description: "",
-            ingredients: "Szezonális gyümölcsökkel",
+            ingredients: "",
             allergens: [7]
 
         },
         {
-            name: "LASAGNE",
+            name: "LASAGNE A KEMENCÉBŐL",
             price: 2990,
             description: "",
             ingredients: "",
