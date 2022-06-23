@@ -8,7 +8,7 @@ import instagram from "./images/instagram.svg"
 import google from "./images/googleicon.svg"
 import main from "./CSS/MainPage.module.css"
 import pizza1 from "./images/pizzafront.jpg"
-import pizza2 from "./images/pizza15.jpg"
+import pizza2 from "./images/pizza17.jpg"
 import pizza3 from "./images/pizza3.jpg"
 import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
@@ -50,8 +50,8 @@ Ebben a hónapban a cukkini, a paprika és a pisztácia tökéletes ízharmóni�
           <div className={main.opening}>
             <h1>Nyitvatartás:</h1>
           <div>
-            <p>Hétfő-Csütörtök : Zárva!</p>
-            <p>Péntek-Vasárnap : 12:00 - 21:00</p>
+            
+            <p>A hét minden napján! : 12:00 - 21:30</p>
           </div>
           </div>
         </div>
