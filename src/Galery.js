@@ -36,7 +36,7 @@ export default function Galery(){
         <div className={galery.allPics}>
             {/* {pictures.map((elem,i) => <div className={galery.column}><img key={i} src={elem}/></div>)} */}
             <div className={galery.column}>
-    <img src={pizza2}/>
+    <img src={pizza7}/>
     <img src={pizza3}/>
     <img src={pizza16}/>
     <img src={pizza5}/>
@@ -46,13 +46,14 @@ export default function Galery(){
   </div>
             <div className={galery.column}>
     <img src={pizza6}/>
-    <img src={pizza7}/>
+    <img src={pizza10}/>
     <img src={pizza8}/>
     <img src={pizza18}/>
     
   </div>
             <div className={galery.column}>
-    <img src={pizza10}/>
+    
+    <img src={pizza2}/>
     <img src={pizza11}/>
     <img src={pizza12}/>
     <img src={pizza19}/>

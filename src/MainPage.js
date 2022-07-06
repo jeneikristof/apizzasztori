@@ -12,7 +12,7 @@ import pizza2 from "./images/pizza17.jpg"
 import pizza3 from "./images/pizza3.jpg"
 import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
-import honappizza from "./images/honappizza2.jpg"
+import honappizza from "./images/honappizza3.jpg"
 let pizzak =[honappizza,pizza1,pizza2,pizza3]
 export default function MainPage() {
   document.title = "A Pizza Sztori";
@@ -44,8 +44,8 @@ export default function MainPage() {
           <h1>Köszöntünk éttermünkben!</h1>
           <p>A Balaton déli partjának első nápolyi stílusú pizzája, fatüzelésű látványkemencéből! Gyere és látogass meg minket Balatonmáriafürdőn!🔥🍕</p>
           <p>
-          🔥 JÚNIUS HÓNAP PIZZÁJA 🔥
-Ebben a hónapban a cukkini, a paprika és a pisztácia tökéletes ízharmóniájával alkottuk meg Nektek a limitáltan csak júniusban elérhető különleges pizzánkat. 🥒🌶 Ezúttal a San Marzano és Fior di Latte alapra pisztáciás mortadella, paprika pesto és cukkini chips került. 🤩 Kérjétek akár mától speciális ajánlatunkat és próbáljátok ki ezt A Pizza Sztorit is! 🍕👌
+          🍕 JÚLIUS HÓNAP PIZZÁJA 🍕
+Júliusban tovább fokozzuk az ízek kavalkádját, mert ezúttal isteni nápolyi alapunkra Prosciutto cotto, sült chilis körte és gorgonzola került, amit mától kérhettek A Pizza Sztoriban egészen a hónap végéig! 🥩🍐🌶🧀
           </p>
           <div className={main.opening}>
             <h1>Nyitvatartás:</h1>
