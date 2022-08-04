@@ -12,7 +12,7 @@ import pizza2 from "./images/pizza17.jpg"
 import pizza3 from "./images/pizza3.jpg"
 import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
-import honappizza from "./images/honappizza3.jpg"
+import honappizza from "./images/honappizza4.jpg"
 let pizzak =[honappizza,pizza1,pizza2,pizza3]
 export default function MainPage() {
   document.title = "A Pizza Sztori";
@@ -44,8 +44,8 @@ export default function MainPage() {
           <h1>Köszöntünk éttermünkben!</h1>
           <p>A Balaton déli partjának első nápolyi stílusú pizzája, fatüzelésű látványkemencéből! Gyere és látogass meg minket Balatonmáriafürdőn!🔥🍕</p>
           <p>
-          🍕 JÚLIUS HÓNAP PIZZÁJA 🍕
-Júliusban tovább fokozzuk az ízek kavalkádját, mert ezúttal isteni nápolyi alapunkra Prosciutto cotto, sült chilis körte és gorgonzola került, amit mától kérhettek A Pizza Sztoriban egészen a hónap végéig! 🥩🍐🌶🧀
+          🍕 AUGUSZTUS HÓNAP PIZZÁJA 🍕
+Imádod a csípős ízeket? 🔥 Akkor erre a hónapra készített pikáns pizzánkat különösen szeretni fogod! 😍 Augusztusban ugyanis a Fior di Latte alapra Nduja Calabra csípős kolbászkrém, friss hagyma és paprikás mascarpone kerül! Ne hagyjátok ki!
           </p>
           <div className={main.opening}>
             <h1>Nyitvatartás:</h1>
