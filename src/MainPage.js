@@ -51,7 +51,7 @@ Imádod a csípős ízeket? 🔥 Akkor erre a hónapra készített pikáns pizz�
             <h1>Nyitvatartás:</h1>
           <div>
             
-            <p>A hét minden napján! : 12:00 - 21:30</p>
+            <p>Kedd-vasárnap : 12:00 - 21:30</p>
           </div>
           </div>
         </div>
