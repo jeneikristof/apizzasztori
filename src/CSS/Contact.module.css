@@ -20,7 +20,7 @@
     box-sizing: border-box;
     background-color: #E9CFBF;
     display: flex;
-    width: 80%;
+    width: 90%;
     justify-content: center;
     align-items: center;
     margin-bottom: 3rem;
@@ -60,6 +60,12 @@
     margin-top:1rem;
     
   }
+.contact .secondDiv {
+    display:flex;
+    gap:1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
 .contact div {
     display:flex;
     gap:1rem;
@@ -147,7 +153,7 @@
     }
     
     .contact {
-        width: 80%;
+        width: 100%;
     }
 
     .contact img {

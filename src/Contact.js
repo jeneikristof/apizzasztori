@@ -16,7 +16,15 @@ export default function Contact(){
                 <div className={ContactStyle.contact}>
                     <h3>Lépjen kapcsolatba velünk</h3>
                     <div className={ContactStyle.firstDiv}><img src={position}></img><p>Balatonmáriafürdő, Rákóczi Ferenc u. 35, 8647</p></div>
-                    <div><img src={time}></img><p>Kedd-Vasárnap 12:00 - 21:30</p></div>
+                    <div className={ContactStyle.secondDiv}>
+                    <section><img src={time}></img></section>
+                    <section>
+                            <p>Hétfő-csütörtök : ZÁRVA!</p>
+                            <p>Péntek : 17:00 - 21:00</p>
+                            <p>Szombat : 12:00 - 21:00</p>
+                            <p>Vasárnap : 12:00 - 20:00</p>
+                    </section>
+                    </div>
                     <div><img src={phone}></img><a href="tel:+36204423800"><p>+36 20 442 3800</p></a></div>
                     {/* <div><img src={email}></img><a href="mailto:+info@apizzasztori.hu"><p>info@apizzasztori.hu</p></a></div> */}
                 </div>
