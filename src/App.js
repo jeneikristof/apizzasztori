@@ -9,8 +9,16 @@ import Galery from './Galery';
 import Contact from './Contact';
 import Footer from './Footer';
 import News from './News';
+import React, { useEffect } from 'react';
+import ReactGa from "react-ga"
+
 
 function App() {
+  useEffect (() => {
+    ReactGa.initialize("G-7WEXZ26KMK")
+   
+    ReactGa.pageview(window.location.pathname + window.location.search)
+  }, [])
   return (
     <BrowserRouter>
     <div className="App">

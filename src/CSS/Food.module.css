@@ -17,10 +17,10 @@
     gap:5rem;
 }
 
-.grid > div:nth-child(12) h3 {
+.grid > div:nth-child(14) h3 {
     font-size: 1.22rem;
 }
-.grid2 > div:nth-child(5) h3 {
+.grid2 > div:nth-child(6) h3 {
     font-size: 1.22rem;
 }
 .text {
@@ -127,7 +127,7 @@
         border-bottom: 1px dotted black;
     }
   
-    .grid >div:nth-child(11), .grid >div:nth-child(12) {
+    .grid >div:nth-child(15), .grid >div:nth-child(16) {
         border: none;
     }
     
@@ -146,7 +146,7 @@
     .allergenWrapper {
         width:90%;
     }
-    .grid2 div:nth-child(5) {
+    .grid2 div:nth-child(7) {
         border-bottom: none;
     }
 }
@@ -166,7 +166,7 @@
     .blackDivs {
      display:none;
     }
-    .grid >div:nth-child(11) {
+    .grid >div:nth-child(15) {
         border-bottom: 1px dotted black;
     }
     .grid > div:nth-child(12) h3 {
@@ -187,7 +187,7 @@
     .text2 {
         display:none;
     }
-    .grid2 div:nth-child(5) {
+    .grid2 div:nth-child(7) {
         border-bottom: none;
     }
     
