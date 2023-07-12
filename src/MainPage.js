@@ -12,7 +12,7 @@ import pizza2 from "./images/pizza17.jpg"
 import pizza3 from "./images/pizza3.jpg"
 import pizza4 from "./images/pizza16.jpg"
 import pizza5 from "./images/pizza4.jpg"
-import honappizza from "./images/honappizza7.jpg"
+import honappizza from "./images/honappizza10.jpg"
 let pizzak =[honappizza,pizza1,pizza2,pizza3]
 export default function MainPage() {
   document.title = "A Pizza Sztori";
@@ -42,10 +42,9 @@ export default function MainPage() {
 
         <div className={main.textarea}>
           <h1>Köszöntünk éttermünkben!</h1>
-          <p>A Balaton déli partjának első nápolyi stílusú pizzája, fatüzelésű látványkemencéből! Gyere és látogass meg minket Balatonmáriafürdőn!🔥🍕</p>
-          <p>
-          🍕 NOVEMBER HÓNAP PIZZÁJA 🍕
-Az utolsó őszi hónapnak egy igazán különleges pizzát szenteltünk, kifejezetten az ínyencek és az őszi zöldségek rajongóinak kedvéért. 🍂🤩 A Fior di Latte alapra ezúttal cèklás ricotta, sütőtök szirom, pármai sonka és sütőtökkrèm került, hogy teljesen átjárhassanak Titeket az ősz ízei. 👌 
+          <p>🍕 MÁRCIUS HÓNAP PIZZÁJA 🍕
+Nem mást hoztunk el Nektek márciusban, mint a híres Margherita Sbagliata pizzát, ami abban különbözik a sima változattól, hogy csak sóval ízesített, sűrűre főzött paradicsom kerül bazsalikomos olajjal a mozzarella alapra. 😍🍅🤌
+Ha odavagytok a tradicionális olasz pizzákért, akkor ezt is imádni fogjátok! Kérjétek március végéig! ☝️
           </p>
           <div className={main.opening}>
             <h1>Nyitvatartás:</h1>
